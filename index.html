@@ -12,8 +12,22 @@
 <body>
     <header class="header">
         <div class="header-top">
-            <div class="logo">
-                <h1><a href="#" id="home-link">Homebrew Games</a></h1>
+            <div class="header-top-container">
+                <div class="header-controls">
+                    <div class="language-switcher">
+                        <button id="lang-en" class="lang-btn active" data-lang="en">EN</button>
+                        <button id="lang-pt" class="lang-btn" data-lang="pt">PT</button>
+                    </div>
+                    <div class="theme-switcher">
+                        <button id="theme-toggle" class="theme-btn" title="Toggle theme">
+                            <span class="theme-icon">🌙</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="logo">
+                    <h1><a href="#" id="home-link" data-translate="site-title">Homebrew Games</a></h1>
+                </div>
+                <div class="header-spacer"></div>
             </div>
         </div>
         <div class="header-nav">
@@ -22,10 +36,10 @@
                     <div class="nav-item" data-system="sega-mega-drive">
                         <span class="nav-link">Mega Drive</span>
                         <div class="dropdown">
-                            <a href="#sega-mega-drive/new-games" class="dropdown-link">New Games</a>
-                            <a href="#sega-mega-drive/ports" class="dropdown-link">Ports</a>
-                            <a href="#sega-mega-drive/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#sega-mega-drive/in-development" class="dropdown-link">In Development</a>
+                            <a href="#sega-mega-drive/new-games" class="dropdown-link" data-translate="nav-new-games">New Games</a>
+                            <a href="#sega-mega-drive/ports" class="dropdown-link" data-translate="nav-ports">Ports</a>
+                            <a href="#sega-mega-drive/re-releases" class="dropdown-link" data-translate="nav-re-releases">Re-Releases</a>
+                            <a href="#sega-mega-drive/in-development" class="dropdown-link" data-translate="nav-in-development">In Development</a>
                         </div>
                     </div>
                     <div class="nav-item" data-system="super-nintendo">
@@ -102,8 +116,8 @@
         <div class="container">
             <div id="home-page" class="page active">
                 <section class="hero">
-                    <h2>Discover Homebrew Games</h2>
-                    <p>Explore the world of independent game development for classic gaming systems</p>
+                    <h2 data-translate="hero-title">Discover Homebrew Games</h2>
+                    <p data-translate="hero-description">Explore the world of independent game development for classic gaming systems</p>
                 </section>
                 
                 <section class="systems-grid">
@@ -111,57 +125,57 @@
                         <div class="system-image">
                             <img src="assets/systems/mega-drive.jpg" alt="Sega Mega Drive" loading="lazy">
                         </div>
-                        <h3>Sega Mega Drive</h3>
-                        <p>16-bit powerhouse with amazing homebrew titles</p>
+                        <h3 data-translate="system-mega-drive">Sega Mega Drive</h3>
+                        <p data-translate="system-mega-drive-desc">16-bit powerhouse with amazing homebrew titles</p>
                     </div>
                     <div class="system-card" data-system="super-nintendo">
                         <div class="system-image">
                             <img src="assets/systems/super-nintendo.jpg" alt="Super Nintendo" loading="lazy">
                         </div>
-                        <h3>Super Nintendo</h3>
-                        <p>Nintendo's 16-bit masterpiece with incredible homebrew</p>
+                        <h3 data-translate="system-super-nintendo">Super Nintendo</h3>
+                        <p data-translate="system-super-nintendo-desc">Nintendo's 16-bit masterpiece with incredible homebrew</p>
                     </div>
                     <div class="system-card" data-system="master-system">
                         <div class="system-image">
                             <img src="assets/systems/master-system.jpg" alt="Master System" loading="lazy">
                         </div>
-                        <h3>Master System</h3>
-                        <p>Sega's 8-bit system with growing homebrew scene</p>
+                        <h3 data-translate="system-master-system">Master System</h3>
+                        <p data-translate="system-master-system-desc">Sega's 8-bit system with growing homebrew scene</p>
                     </div>
                     <div class="system-card" data-system="nes">
                         <div class="system-image">
                             <img src="assets/systems/nes.jpg" alt="NES" loading="lazy">
                         </div>
-                        <h3>NES</h3>
-                        <p>The classic 8-bit system with vibrant homebrew community</p>
+                        <h3 data-translate="system-nes">NES</h3>
+                        <p data-translate="system-nes-desc">The classic 8-bit system with vibrant homebrew community</p>
                     </div>
                     <div class="system-card" data-system="playstation-1">
                         <div class="system-image">
                             <img src="assets/systems/playstation.jpg" alt="PlayStation" loading="lazy">
                         </div>
-                        <h3>PlayStation 1</h3>
-                        <p>32-bit pioneer with impressive homebrew development</p>
+                        <h3 data-translate="system-playstation">PlayStation 1</h3>
+                        <p data-translate="system-playstation-desc">32-bit pioneer with impressive homebrew development</p>
                     </div>
                     <div class="system-card" data-system="nintendo-64">
                         <div class="system-image">
                             <img src="assets/systems/nintendo-64.jpg" alt="Nintendo 64" loading="lazy">
                         </div>
-                        <h3>Nintendo 64</h3>
-                        <p>64-bit innovation with dedicated homebrew community</p>
+                        <h3 data-translate="system-nintendo-64">Nintendo 64</h3>
+                        <p data-translate="system-nintendo-64-desc">64-bit innovation with dedicated homebrew community</p>
                     </div>
                     <div class="system-card" data-system="sega-saturn">
                         <div class="system-image">
                             <img src="assets/systems/saturn.jpg" alt="Sega Saturn" loading="lazy">
                         </div>
-                        <h3>Sega Saturn</h3>
-                        <p>Dual-CPU powerhouse with unique homebrew scene</p>
+                        <h3 data-translate="system-sega-saturn">Sega Saturn</h3>
+                        <p data-translate="system-sega-saturn-desc">Dual-CPU powerhouse with unique homebrew scene</p>
                     </div>
                     <div class="system-card" data-system="sega-dreamcast">
                         <div class="system-image">
                             <img src="assets/systems/dreamcast.jpg" alt="Sega Dreamcast" loading="lazy">
                         </div>
-                        <h3>Sega Dreamcast</h3>
-                        <p>Internet-ready console with thriving indie development</p>
+                        <h3 data-translate="system-sega-dreamcast">Sega Dreamcast</h3>
+                        <p data-translate="system-sega-dreamcast-desc">Internet-ready console with thriving indie development</p>
                     </div>
                 </section>
             </div>
@@ -193,7 +207,7 @@
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Homebrew Games Archive. Built with ❤️ for retro gaming enthusiasts.</p>
+            <p data-translate="footer-text">&copy; 2025 Homebrew Games Archive. Built with ❤️ for retro gaming enthusiasts.</p>
         </div>
     </footer>
 

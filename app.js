@@ -10,14 +10,21 @@ class HomebrewGamesApp {
         this.gamesPerLoad = 9;
         this.isLoading = false;
         this.hasMoreGames = true;
+        this.currentLanguage = 'en';
+        this.currentTheme = 'dark';
+        this.translations = {};
         
         this.init();
     }
 
     async init() {
+        this.loadSettings();
         this.setupEventListeners();
         this.handleInitialRoute();
+        await this.loadTranslations();
         await this.loadGamesData();
+        this.updateLanguage();
+        this.updateTheme();
     }
 
     setupEventListeners() {
@@ -52,6 +59,19 @@ class HomebrewGamesApp {
         // Handle browser back/forward
         window.addEventListener('popstate', () => {
             this.handleInitialRoute();
+        });
+
+        // Language switcher event listeners
+        document.querySelectorAll('.lang-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const lang = e.target.getAttribute('data-lang');
+                this.changeLanguage(lang);
+            });
+        });
+
+        // Theme switcher event listener
+        document.getElementById('theme-toggle').addEventListener('click', () => {
+            this.toggleTheme();
         });
     }
 
@@ -326,6 +346,120 @@ class GitHubDataManager {
     getImageUrl(imagePath) {
         return `https://raw.githubusercontent.com/${this.repoOwner}/${this.repoName}/${this.branch}/${imagePath}`;
     }
+}
+
+// Initialize the app when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+    new HomebrewGamesApp();
+});
+
+// Homebrew Games App - Additional methods
+HomebrewGamesApp.prototype.loadSettings = function() {
+    this.currentLanguage = localStorage.getItem('language') || 'en';
+    this.currentTheme = localStorage.getItem('theme') || 'dark';
+};
+
+HomebrewGamesApp.prototype.saveSettings = function() {
+    localStorage.setItem('language', this.currentLanguage);
+    localStorage.setItem('theme', this.currentTheme);
+};
+
+HomebrewGamesApp.prototype.loadTranslations = async function() {
+    try {
+        const response = await fetch(`translations/${this.currentLanguage}.json`);
+        if (!response.ok) throw new Error('Failed to load translations');
+        this.translations = await response.json();
+    } catch (error) {
+        console.error('Error loading translations:', error);
+        // Fallback to English if current language fails
+        if (this.currentLanguage !== 'en') {
+            try {
+                const fallbackResponse = await fetch('translations/en.json');
+                this.translations = await fallbackResponse.json();
+            } catch (fallbackError) {
+                console.error('Error loading fallback translations:', fallbackError);
+                this.translations = {};
+            }
+        }
+    }
+};
+
+HomebrewGamesApp.prototype.changeLanguage = async function(lang) {
+    if (lang === this.currentLanguage) return;
+    
+    this.currentLanguage = lang;
+    this.saveSettings();
+    
+    // Update language button states
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+    });
+    
+    // Load new translations
+    await this.loadTranslations();
+    this.updateLanguage();
+};
+
+HomebrewGamesApp.prototype.updateLanguage = function() {
+    // Update all elements with data-translate attribute
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        if (this.translations[key]) {
+            element.textContent = this.translations[key];
+        }
+    });
+
+    // Update dynamic content
+    this.updateDynamicTranslations();
+};
+
+HomebrewGamesApp.prototype.updateDynamicTranslations = function() {
+    // Update loading text
+    const loadingElement = document.querySelector('#loading p');
+    if (loadingElement && this.translations['loading-text']) {
+        loadingElement.textContent = this.translations['loading-text'];
+    }
+
+    // Update no more games text
+    const noMoreGamesElement = document.querySelector('#no-more-games p');
+    if (noMoreGamesElement && this.translations['no-more-games']) {
+        noMoreGamesElement.textContent = this.translations['no-more-games'];
+    }
+
+    // Update all dropdown links
+    document.querySelectorAll('.dropdown-link').forEach(link => {
+        const href = link.getAttribute('href');
+        if (href.includes('/new-games')) {
+            link.textContent = this.translations['nav-new-games'] || 'New Games';
+        } else if (href.includes('/ports')) {
+            link.textContent = this.translations['nav-ports'] || 'Ports';
+        } else if (href.includes('/re-releases')) {
+            link.textContent = this.translations['nav-re-releases'] || 'Re-Releases';
+        } else if (href.includes('/in-development')) {
+            link.textContent = this.translations['nav-in-development'] || 'In Development';
+        }
+    });
+};
+
+HomebrewGamesApp.prototype.toggleTheme = function() {
+    this.currentTheme = this.currentTheme === 'dark' ? 'light' : 'dark';
+    this.saveSettings();
+    this.updateTheme();
+};
+
+HomebrewGamesApp.prototype.updateTheme = function() {
+    const body = document.body;
+    const themeIcon = document.querySelector('.theme-icon');
+    
+    if (this.currentTheme === 'light') {
+        body.setAttribute('data-theme', 'light');
+        themeIcon.textContent = '☀️';
+    } else {
+        body.removeAttribute('data-theme');
+        themeIcon.textContent = '🌙';
+    }
+};
+
 }
 
 // Export for potential use in other modules
