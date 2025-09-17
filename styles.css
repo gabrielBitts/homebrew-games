@@ -47,7 +47,7 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(10, 10, 10, 0.95);
+    background: var(--primary-bg);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--border-color);
     z-index: 1000;
@@ -55,12 +55,8 @@ body {
 }
 
 .header-top {
-    background: rgba(15, 15, 15, 0.98);
+    background: var(--primary-bg);
     padding: 0.75rem 0;
-}
-
-[data-theme="light"] .header-top {
-    background: rgba(245, 245, 245, 0.98);
 }
 
 .header-top-container {
@@ -101,6 +97,7 @@ body {
 
 .header-nav {
     padding: 1rem 0;
+    background: var(--secondary-bg);
 }
 
 .nav-container {
@@ -243,7 +240,7 @@ body {
 
 .dropdown-link:hover {
     color: var(--text-primary);
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: var(--border-color);
 }
 
 /* Main content */
