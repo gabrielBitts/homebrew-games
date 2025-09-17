@@ -36,7 +36,7 @@
         "title": "Tanglewood",
         "developer": "Big Evil Corporation",
         "year": 2018,
-        "cover": "assets/games/tanglewood.jpg",
+        "cover": "assets/games/md/tanglewood.jpg",
         "buyUrl": "https://tanglewoodgame.com/",
         "description": "A true 16-bit platformer adventure developed entirely on original hardware.",
         "genre": "Platform",
@@ -52,9 +52,8 @@
         "title": "Coffee Crisis",
         "developer": "Mega Cat Studios",
         "year": 2017,
-        "cover": "assets/games/coffee-crisis.jpg",
+        "cover": "assets/games/md/coffee-crisis.jpg",
         "buyUrl": "https://megacatstudios.com/products/coffee-crisis-sega-genesis",
-        "description": "Aliens are stealing Earth's coffee! Save the world in this beat 'em up adventure.",
         "genre": "Beat 'em Up",
         "tags": [
           "beat-em-up",
@@ -68,9 +67,8 @@
         "title": "Xeno Crisis",
         "developer": "Bitmap Bureau",
         "year": 2019,
-        "cover": "assets/games/xeno-crisis.jpg",
-        "buyUrl": "https://bitmapbureau.com/xenocrisis/",
-        "description": "Top-down arena shooter with 2-player co-op inspired by classic arcade games.",
+        "cover": "assets/games/md/xenocrisis.jpg",
+        "buyUrl": "https://www.bitmapbureau.com/games/xeno-crisis",
         "genre": "Shooter",
         "tags": [
           "shooter",
@@ -147,6 +145,45 @@
           "platform",
           "mega-cat-studios",
           "tuxedo-games"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "Daemon Claw",
+        "developer": "BitBeamCannon, Neofid",
+        "year": 2025,
+        "cover": "assets/games/md/daemon-claw.jpg",
+        "buyUrl": "https://neofid-studios.com/products/pre-order-daemonclaw-new-boxed-cartridge-with-printed-manual-for-sega-megadrive-genesis-i-ii-and-iii",
+        "genre": "Action",
+        "tags": [
+          "action",
+          "neofid"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "The Curse of Illmoore Bay",
+        "developer": "Second Dimension",
+        "year": 2021,
+        "cover": "assets/games/md/curse-illmoore.png",
+        "buyUrl": "https://www.second-dimension.com/store/the-curse-of-illmoore-bay",
+        "genre": "Platform",
+        "tags": [
+          "action",
+          "second-dimension"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "Blow'em Out",
+        "developer": "Second Dimension",
+        "year": 2021,
+        "cover": "assets/games/md/blow.png",
+        "buyUrl": "https://www.second-dimension.com/store/blow-em-out-sega",
+        "genre": "Platform",
+        "tags": [
+          "action",
+          "second-dimension"
         ]
       }
     ],
