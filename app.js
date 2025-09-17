@@ -21,6 +21,12 @@ class HomebrewGamesApp {
     }
 
     setupEventListeners() {
+        // Home link event listener
+        document.getElementById('home-link').addEventListener('click', (e) => {
+            e.preventDefault();
+            this.navigateTo('');
+        });
+
         // Navigation event listeners
         document.querySelectorAll('.dropdown-link').forEach(link => {
             link.addEventListener('click', (e) => {
