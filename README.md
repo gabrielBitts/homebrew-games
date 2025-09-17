@@ -69,21 +69,24 @@ const games = await dataManager.fetchGamesData();
 
 ## Deployment
 
-### Static Hosting (Recommended)
+### GitHub Pages (Recommended)
 
-Deploy to any static hosting service:
+This website is configured for automatic deployment to GitHub Pages:
 
-- **GitHub Pages**: Enable in repository settings
-- **Netlify**: Connect your GitHub repo
+1. **Push to GitHub**: Push your repository to GitHub
+2. **Enable Pages**: Go to Settings > Pages in your GitHub repo
+3. **Select Source**: Choose "GitHub Actions" as the source
+4. **Automatic Deployment**: The site will automatically deploy on every push to main branch
+
+Your site will be available at: `https://yourusername.github.io/repository-name`
+
+### Alternative Hosting
+
+Deploy to other static hosting services:
+
+- **Netlify**: Connect your GitHub repo for automatic deployment
 - **Vercel**: Import your GitHub project
 - **Traditional Web Hosting**: Upload files via FTP
-
-### Self-Hosting
-
-1. Set up a web server (Apache, Nginx, etc.)
-2. Upload files to web directory
-3. Configure server to serve static files
-4. Optional: Set up SSL certificate
 
 ### Local Development
 
