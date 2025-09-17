@@ -3,14 +3,33 @@
     "new-games": [
       {
         "id": "smd-001",
-        "title": "Rocket Panda",
-        "developer": "Independent Developer",
-        "year": 2024,
-        "cover": "assets/games/rocket-panda.jpg",
-        "buyUrl": "https://segabits.com/forums/index.php?topic=4705.90",
-        "description": "Action-packed game featuring a panda protagonist, released in September 2024.",
-        "genre": "Action",
-        "tags": ["action", "panda", "new", "2024"]
+        "title": "Demons of Asterbog",
+        "developer": "Neofid Studios",
+        "year": 2021,
+        "cover": "assets/games/md/demons-asterborg.jpg",
+        "buyUrl": "https://neofid-studios.com/products/demons-of-asteborg-asia-version-new-boxed-cartridge-with-printed-manual-for-sega-megadrive-genesis-i-ii-and-iii",
+        "genre": "Action-Adventure",
+        "tags": [
+          "action",
+          "adventure",
+          "demons",
+          "neofid"
+        ]
+      },
+      {
+        "id": "smd-001",
+        "title": "Astebros",
+        "developer": "Neofid Studios",
+        "year": 2023,
+        "cover": "assets/games/md/astebros.jpg",
+        "buyUrl": "https://neofid-studios.com/products/demons-of-asteborg-astebros-boxed-pack-boxed-cartridge-with-printed-manual-for-sega-megadrive-genesis-i-ii-and-iii",
+        "genre": "Action-Adventure",
+        "tags": [
+          "action",
+          "adventure",
+          "demons",
+          "neofid"
+        ]
       },
       {
         "id": "smd-002",
@@ -21,7 +40,12 @@
         "buyUrl": "https://tanglewoodgame.com/",
         "description": "A true 16-bit platformer adventure developed entirely on original hardware.",
         "genre": "Platform",
-        "tags": ["platform", "adventure", "original", "16-bit"]
+        "tags": [
+          "platform",
+          "adventure",
+          "original",
+          "16-bit"
+        ]
       },
       {
         "id": "smd-003",
@@ -32,7 +56,12 @@
         "buyUrl": "https://megacatstudios.com/products/coffee-crisis-sega-genesis",
         "description": "Aliens are stealing Earth's coffee! Save the world in this beat 'em up adventure.",
         "genre": "Beat 'em Up",
-        "tags": ["beat-em-up", "aliens", "coffee", "humor"]
+        "tags": [
+          "beat-em-up",
+          "aliens",
+          "coffee",
+          "humor"
+        ]
       },
       {
         "id": "smd-004",
@@ -43,57 +72,380 @@
         "buyUrl": "https://bitmapbureau.com/xenocrisis/",
         "description": "Top-down arena shooter with 2-player co-op inspired by classic arcade games.",
         "genre": "Shooter",
-        "tags": ["shooter", "arcade", "top-down", "co-op"]
+        "tags": [
+          "shooter",
+          "arcade",
+          "top-down",
+          "co-op"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "Alice Sisters",
+        "developer": "OrionSoft, PixelHeart",
+        "year": 2022,
+        "cover": "assets/games/md/alice-sisters.jpg",
+        "buyUrl": "https://www.pixelheart.eu/en/produit/alice-sisters-genesis/",
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "orionsoft",
+          "pixelheart"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "The Cursed Knight",
+        "developer": "Broke Studio, GGS Studio Creation",
+        "year": 2022,
+        "cover": "assets/games/md/cursed-knight.jpg",
+        "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/44-the-cursed-knight-gen-md.html",
+        "genre": "Action",
+        "tags": [
+          "action",
+          "broke-studio",
+          "ggs-studio-creation"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "P-47 II",
+        "developer": "City Connection, NMK, BUG",
+        "year": 2025,
+        "cover": "assets/games/md/p-47.jpg",
+        "buyUrl": "https://clariceshop.com/products/g_p47iimd",
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "city-connection",
+          "nmk"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "ZPF",
+        "developer": "Mega Cat Studios, ZPF Team",
+        "year": 2025,
+        "cover": "assets/games/md/zpf.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "mega-cat-studios",
+          "zpf-team"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "Coloco DX",
+        "developer": "Mega Cat Studios, Tuxedo Games",
+        "year": 2025,
+        "cover": "assets/games/md/coloco-dx.jpg",
+        "buyUrl": "https://tuxedogamedevs.fwscart.com/product/coloco-dx",
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "mega-cat-studios",
+          "tuxedo-games"
+        ]
       }
     ],
     "ports": [
       {
         "id": "smd-005",
-        "title": "Final Fight CD Enhanced",
-        "developer": "Capcom / Fan Enhancement",
+        "title": "Mad Stalker: Full Metal Forth",
+        "developer": "Columbus Circle",
         "year": 2020,
-        "cover": "assets/games/final-fight-cd.jpg",
+        "cover": "assets/games/md/mad-stalker.jpg",
         "buyUrl": "https://www.romhacking.net/translations/3386/",
-        "description": "Enhanced port of Final Fight with CD audio and additional content.",
         "genre": "Beat 'em Up",
-        "tags": ["beat-em-up", "capcom", "enhanced", "cd-audio"]
+        "tags": [
+          "beat-em-up",
+          "Columbus-Circle",
+          "port"
+        ]
       },
       {
-        "id": "smd-006",
-        "title": "Streets of Rage 3 Bare Knuckle III",
-        "developer": "Sega / Fan Restoration",
-        "year": 2019,
-        "cover": "assets/games/sor3-bare-knuckle.jpg",
-        "buyUrl": "https://www.romhacking.net/hacks/3767/",
-        "description": "Restored Japanese version with original story and difficulty.",
-        "genre": "Beat 'em Up",
-        "tags": ["beat-em-up", "sega", "restoration", "japanese"]
+        "id": "smd-005",
+        "title": "City Connection",
+        "developer": "City Connection, Habit Soft, BUG",
+        "year": 2023,
+        "cover": "assets/games/md/city-connection.jpg",
+        "buyUrl": "https://www.gameimpact.info/cityconnectionmd/",
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "city-connection",
+          "habit-soft",
+          "bug",
+          "port"
+        ]
+      },
+      {
+        "id": "smd-004",
+        "title": "Farming Simulator",
+        "developer": "Giants Software",
+        "year": 2025,
+        "cover": "assets/games/md/farming-sim.jpg",
+        "buyUrl": "https://clariceshop.com/products/g_p47iimd",
+        "genre": "Simulation",
+        "tags": [
+          "simulation",
+          "giants-software",
+          "port"
+        ]
       }
     ],
     "re-releases": [
       {
         "id": "smd-007",
-        "title": "Pier Solar HD",
-        "developer": "WaterMelon / Limited Run Games",
-        "year": 2020,
-        "cover": "assets/games/pier-solar.jpg",
-        "buyUrl": "https://limitedrungames.com/",
-        "description": "Epic 16-bit RPG re-released with enhanced packaging and extras.",
-        "genre": "RPG",
-        "tags": ["rpg", "adventure", "limited-run", "enhanced"]
+        "title": "Zero Wing",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2021,
+        "cover": "assets/games/md/zero-wing.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Truxton / Tatsujin",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2021,
+        "cover": "assets/games/md/truxton.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Hellfire",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2021,
+        "cover": "assets/games/md/hellfire.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Fire Shark",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2021,
+        "cover": "assets/games/md/fire-shark.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Mega Man: Wily Wars",
+        "developer": "Retro-Bit, Capcom",
+        "year": 2022,
+        "cover": "assets/games/md/mega-man-wily-wars.jpg",
+        "buyUrl": null,
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "capcom",
+          "enhanced"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Gaiares",
+        "developer": "Renovation, Retro-Bit",
+        "year": 2022,
+        "cover": "assets/games/md/gaiares.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "renovation",
+          "retro-bit",
+          "translation"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "VALIS Collection",
+        "developer": "Renovation, Retro-Bit",
+        "year": 2023,
+        "cover": "assets/games/md/valis.png",
+        "buyUrl": null,
+        "genre": "Action",
+        "tags": [
+          "action",
+          "renovation",
+          "retro-bit",
+          "translation",
+          "valis"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Gley Lancer",
+        "developer": "Masaya, Retro-Bit",
+        "year": 2023,
+        "cover": "assets/games/md/gley-lancer.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "masaya",
+          "retro-bit",
+          "translation",
+          "gley-lancer"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "El Viento",
+        "developer": "Renovation, Retro-Bit",
+        "year": 2024,
+        "cover": "assets/games/md/el-viento.jpg",
+        "buyUrl": null,
+        "genre": "Platform",
+        "tags": [
+          "shmup",
+          "renovation",
+          "retro-bit",
+          "translation",
+          "el-viento"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Eliminate Down",
+        "developer": "Aprinet, Retro-Bit, Soft Vision",
+        "year": 2024,
+        "cover": "assets/games/md/eliminate-down.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "aprinet",
+          "soft-vision",
+          "retro-bit",
+          "translation",
+          "eliminate-down"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Sol-Deace",
+        "developer": "Retro-Bit, Wolf Team",
+        "year": 2024,
+        "cover": "assets/games/md/sol-deace.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "wolf-team",
+          "retro-bit",
+          "translation",
+          "sol-deace"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Snow Bros. Nick & Tom",
+        "developer": "Limited Run Games",
+        "year": 2025,
+        "cover": "assets/games/md/snow-bros.jpg",
+        "buyUrl": null,
+        "genre": "Platform",
+        "tags": [
+          "shmup",
+          "limited-run-games",
+          "translation"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Slap Fight",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2025,
+        "cover": "assets/games/md/slap-fight.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "retro-bit",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Grind Stormer",
+        "developer": "Retro-Bit, Toaplan",
+        "year": 2025,
+        "cover": "assets/games/md/grind-stormer.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "retro-bit",
+          "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Earnest Evans",
+        "developer": "Edia, Limited Run Games, Wolf Team",
+        "year": 2025,
+        "cover": "assets/games/md/earnest-evans.jpg",
+        "buyUrl": null,
+        "genre": "Adventure",
+        "tags": [
+          "adventure",
+          "edia",
+          "limited-run-games",
+          "wolf-team"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Undeadline",
+        "developer": "D4 Enterprise, Retro-Bit, T&E Soft",
+        "year": 2025,
+        "cover": "assets/games/md/undeadline.jpg",
+        "buyUrl": null,
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "d4-enterprise",
+          "retro-bit",
+          "t&e-soft"
+        ]
       }
     ],
     "in-development": [
       {
         "id": "smd-008",
-        "title": "Demons of Asteborg",
-        "developer": "Neofid Studios",
-        "year": 2024,
-        "cover": "assets/games/demons-of-asteborg.jpg",
-        "buyUrl": "https://www.kickstarter.com/projects/neofid-studios/demons-of-asteborg",
-        "description": "Metroidvania-style adventure with beautiful pixel art, currently in development.",
-        "genre": "Metroidvania",
-        "tags": ["metroidvania", "pixel-art", "adventure", "upcoming"]
+        "title": "Earthion",
+        "developer": "Ancient",
+        "year": 2026,
+        "cover": "assets/games/md/earthion.png",
+        "buyUrl": "https://earthiongame.com/",
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "pixel-art",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -108,7 +460,12 @@
         "buyUrl": "https://pikointeractive.com/",
         "description": "Previously unreleased game completed and published by Piko Interactive.",
         "genre": "Action",
-        "tags": ["action", "unreleased", "piko", "completed"]
+        "tags": [
+          "action",
+          "unreleased",
+          "piko",
+          "completed"
+        ]
       },
       {
         "id": "snes-002",
@@ -119,7 +476,12 @@
         "buyUrl": "https://www.play-asia.com/",
         "description": "2D fighting game developed by former SNK staff members.",
         "genre": "Fighting",
-        "tags": ["fighting", "2d", "snk", "professional"]
+        "tags": [
+          "fighting",
+          "2d",
+          "snk",
+          "professional"
+        ]
       }
     ],
     "ports": [
@@ -132,7 +494,12 @@
         "buyUrl": "https://www.romhacking.net/hacks/5555/",
         "description": "Enhanced port of Doom with improved performance and features.",
         "genre": "FPS",
-        "tags": ["fps", "doom", "enhanced", "port"]
+        "tags": [
+          "fps",
+          "doom",
+          "enhanced",
+          "port"
+        ]
       }
     ],
     "re-releases": [
@@ -145,7 +512,12 @@
         "buyUrl": "https://pikointeractive.com/",
         "description": "Action-platformer featuring the SNES-CD's CEO as the protagonist.",
         "genre": "Platform",
-        "tags": ["platform", "action", "ceo", "humor"]
+        "tags": [
+          "platform",
+          "action",
+          "ceo",
+          "humor"
+        ]
       }
     ],
     "in-development": [
@@ -158,7 +530,12 @@
         "buyUrl": null,
         "description": "Side-scrolling action game featuring a beaver protagonist on a mission.",
         "genre": "Action",
-        "tags": ["action", "beaver", "side-scrolling", "upcoming"]
+        "tags": [
+          "action",
+          "beaver",
+          "side-scrolling",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -173,7 +550,12 @@
         "buyUrl": "https://www.smspower.org/Homebrew/SilverValley-SMS",
         "description": "Western-themed action-adventure game with RPG elements.",
         "genre": "Action-Adventure",
-        "tags": ["western", "rpg", "pixel-art", "adventure"]
+        "tags": [
+          "western",
+          "rpg",
+          "pixel-art",
+          "adventure"
+        ]
       },
       {
         "id": "ms-002",
@@ -184,7 +566,12 @@
         "buyUrl": "https://www.smspower.org/Homebrew/AstroForce-SMS",
         "description": "Space shooter with multiple levels and challenging enemies.",
         "genre": "Shooter",
-        "tags": ["shooter", "space", "levels", "challenging"]
+        "tags": [
+          "shooter",
+          "space",
+          "levels",
+          "challenging"
+        ]
       }
     ],
     "ports": [
@@ -197,7 +584,12 @@
         "buyUrl": "https://www.smspower.org/Hacks/Sonic1-SMS",
         "description": "Enhanced version of Sonic 1 with improved graphics and sound.",
         "genre": "Platform",
-        "tags": ["platform", "sonic", "enhanced", "classic"]
+        "tags": [
+          "platform",
+          "sonic",
+          "enhanced",
+          "classic"
+        ]
       }
     ],
     "re-releases": [
@@ -210,7 +602,12 @@
         "buyUrl": "https://www.smspower.org/Homebrew/HeroesAgainstDemons-SMS",
         "description": "Turn-based RPG with a fantasy setting and classic 8-bit aesthetic.",
         "genre": "RPG",
-        "tags": ["rpg", "turn-based", "fantasy", "8-bit"]
+        "tags": [
+          "rpg",
+          "turn-based",
+          "fantasy",
+          "8-bit"
+        ]
       }
     ],
     "in-development": [
@@ -223,7 +620,12 @@
         "buyUrl": null,
         "description": "Action game where you hunt bugs in various environments.",
         "genre": "Action",
-        "tags": ["action", "bugs", "hunt", "upcoming"]
+        "tags": [
+          "action",
+          "bugs",
+          "hunt",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -238,7 +640,12 @@
         "buyUrl": "https://morphcatgames.com/",
         "description": "Four-player cooperative platformer compressed into just 40KB - a technical marvel.",
         "genre": "Platform",
-        "tags": ["platform", "co-op", "technical-marvel", "4-player"]
+        "tags": [
+          "platform",
+          "co-op",
+          "technical-marvel",
+          "4-player"
+        ]
       },
       {
         "id": "nes-002",
@@ -249,7 +656,12 @@
         "buyUrl": "https://lizardnes.com/",
         "description": "Open-world puzzle-platformer where you control a mysterious lizard suit.",
         "genre": "Puzzle-Platform",
-        "tags": ["puzzle", "platform", "open-world", "mystery"]
+        "tags": [
+          "puzzle",
+          "platform",
+          "open-world",
+          "mystery"
+        ]
       },
       {
         "id": "nes-003",
@@ -260,7 +672,12 @@
         "buyUrl": "https://www.retrousb.com/",
         "description": "Extremely challenging platformer inspired by Mega Man and Metroid.",
         "genre": "Platform",
-        "tags": ["platform", "challenging", "mega-man", "metroid"]
+        "tags": [
+          "platform",
+          "challenging",
+          "mega-man",
+          "metroid"
+        ]
       }
     ],
     "ports": [
@@ -273,7 +690,12 @@
         "buyUrl": "https://www.romhacking.net/hacks/4784/",
         "description": "Impressive 8-bit demake of the SNES classic.",
         "genre": "Platform",
-        "tags": ["platform", "megaman", "demake", "8-bit"]
+        "tags": [
+          "platform",
+          "megaman",
+          "demake",
+          "8-bit"
+        ]
       }
     ],
     "re-releases": [
@@ -286,7 +708,12 @@
         "buyUrl": "https://limitedrungames.com/",
         "description": "Zapper-compatible party game re-released with premium packaging.",
         "genre": "Party",
-        "tags": ["party", "zapper", "cowboy", "limited-run"]
+        "tags": [
+          "party",
+          "zapper",
+          "cowboy",
+          "limited-run"
+        ]
       }
     ],
     "in-development": [
@@ -299,7 +726,12 @@
         "buyUrl": null,
         "description": "Metroidvania-style adventure with puzzle elements, coming to NES.",
         "genre": "Metroidvania",
-        "tags": ["metroidvania", "puzzle", "adventure", "upcoming"]
+        "tags": [
+          "metroidvania",
+          "puzzle",
+          "adventure",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -314,7 +746,12 @@
         "buyUrl": "https://www.doomworld.com/forum/topic/120000-psx-doom-homebrew-port/",
         "description": "Enhanced homebrew port of Doom with improved performance.",
         "genre": "FPS",
-        "tags": ["fps", "doom", "homebrew", "enhanced"]
+        "tags": [
+          "fps",
+          "doom",
+          "homebrew",
+          "enhanced"
+        ]
       },
       {
         "id": "ps1-002",
@@ -325,7 +762,12 @@
         "buyUrl": "https://sbcgaming.wikidot.com/wiki%3Agame-sources",
         "description": "Collection of homebrew games made with Sony's Net Yaroze development kit.",
         "genre": "Various",
-        "tags": ["homebrew", "net-yaroze", "collection", "sony"]
+        "tags": [
+          "homebrew",
+          "net-yaroze",
+          "collection",
+          "sony"
+        ]
       }
     ],
     "ports": [
@@ -338,7 +780,12 @@
         "buyUrl": "https://www.trle.net/",
         "description": "Community-created levels for the original Tomb Raider.",
         "genre": "Adventure",
-        "tags": ["adventure", "tomb-raider", "level-editor", "community"]
+        "tags": [
+          "adventure",
+          "tomb-raider",
+          "level-editor",
+          "community"
+        ]
       }
     ],
     "re-releases": [
@@ -351,7 +798,12 @@
         "buyUrl": "https://limitedrungames.com/",
         "description": "Premium re-release of the classic Metroidvania masterpiece.",
         "genre": "Metroidvania",
-        "tags": ["metroidvania", "castlevania", "limited-run", "classic"]
+        "tags": [
+          "metroidvania",
+          "castlevania",
+          "limited-run",
+          "classic"
+        ]
       }
     ],
     "in-development": [
@@ -364,7 +816,12 @@
         "buyUrl": null,
         "description": "Upcoming Quake port for PlayStation 1 in development.",
         "genre": "FPS",
-        "tags": ["fps", "quake", "port", "upcoming"]
+        "tags": [
+          "fps",
+          "quake",
+          "port",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -379,7 +836,12 @@
         "buyUrl": "https://www.pikointeractive.com/product/40-winks-n64/",
         "description": "Originally unreleased N64 game completed and published by Piko Interactive.",
         "genre": "Platform",
-        "tags": ["platform", "unreleased", "piko", "completed"]
+        "tags": [
+          "platform",
+          "unreleased",
+          "piko",
+          "completed"
+        ]
       },
       {
         "id": "n64-002",
@@ -390,7 +852,12 @@
         "buyUrl": "https://retroachievements.org/user/soroxas94",
         "description": "Fan-made game that bridges the gap between Ocarina of Time and Majora's Mask.",
         "genre": "Adventure",
-        "tags": ["adventure", "zelda", "fan-made", "bridge"]
+        "tags": [
+          "adventure",
+          "zelda",
+          "fan-made",
+          "bridge"
+        ]
       }
     ],
     "ports": [
@@ -403,7 +870,12 @@
         "buyUrl": "https://github.com/sm64pc/sm64ex",
         "description": "Enhanced port with quality of life improvements and new features.",
         "genre": "Platform",
-        "tags": ["platform", "mario", "enhanced", "quality-of-life"]
+        "tags": [
+          "platform",
+          "mario",
+          "enhanced",
+          "quality-of-life"
+        ]
       }
     ],
     "re-releases": [
@@ -416,7 +888,12 @@
         "buyUrl": "https://www.doomworld.com/",
         "description": "Enhanced version of Doom 64 with modern features.",
         "genre": "FPS",
-        "tags": ["fps", "doom", "enhanced", "modern"]
+        "tags": [
+          "fps",
+          "doom",
+          "enhanced",
+          "modern"
+        ]
       }
     ],
     "in-development": [
@@ -429,7 +906,12 @@
         "buyUrl": null,
         "description": "Source port of Perfect Dark with enhanced features in development.",
         "genre": "FPS",
-        "tags": ["fps", "perfect-dark", "source-port", "upcoming"]
+        "tags": [
+          "fps",
+          "perfect-dark",
+          "source-port",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -444,7 +926,12 @@
         "buyUrl": "https://www.sonicztreme.com/",
         "description": "Fan completion of the canceled Sonic X-Treme game.",
         "genre": "Platform",
-        "tags": ["platform", "sonic", "canceled", "completion"]
+        "tags": [
+          "platform",
+          "sonic",
+          "canceled",
+          "completion"
+        ]
       },
       {
         "id": "saturn-002",
@@ -455,7 +942,12 @@
         "buyUrl": "https://segaxtreme.net/",
         "description": "Original shoot 'em up game developed for Saturn.",
         "genre": "Shoot 'em Up",
-        "tags": ["shmup", "original", "homebrew", "saturn"]
+        "tags": [
+          "shmup",
+          "original",
+          "homebrew",
+          "saturn"
+        ]
       }
     ],
     "ports": [
@@ -468,7 +960,12 @@
         "buyUrl": "https://www.segasaturnshiro.com/",
         "description": "Impressive fan-made port of the SNES classic to Saturn.",
         "genre": "Adventure",
-        "tags": ["adventure", "zelda", "port", "snes"]
+        "tags": [
+          "adventure",
+          "zelda",
+          "port",
+          "snes"
+        ]
       }
     ],
     "re-releases": [
@@ -481,7 +978,12 @@
         "buyUrl": "https://forever-entertainment.com/panzer-dragoon-remake",
         "description": "Modern remake of the classic Saturn rail shooter.",
         "genre": "Rail Shooter",
-        "tags": ["rail-shooter", "panzer-dragoon", "remake", "modern"]
+        "tags": [
+          "rail-shooter",
+          "panzer-dragoon",
+          "remake",
+          "modern"
+        ]
       }
     ],
     "in-development": [
@@ -494,7 +996,12 @@
         "buyUrl": null,
         "description": "Doom port optimized for Saturn hardware in development.",
         "genre": "FPS",
-        "tags": ["fps", "doom", "port", "upcoming"]
+        "tags": [
+          "fps",
+          "doom",
+          "port",
+          "upcoming"
+        ]
       }
     ]
   },
@@ -509,7 +1016,12 @@
         "buyUrl": "https://www.gooddealgames.com/inventory/Dreamcast.html",
         "description": "Jump'n'run game with unique humor and beautiful pixel art.",
         "genre": "Platform",
-        "tags": ["platform", "humor", "pixel-art", "indie"]
+        "tags": [
+          "platform",
+          "humor",
+          "pixel-art",
+          "indie"
+        ]
       },
       {
         "id": "dc-002",
@@ -520,7 +1032,12 @@
         "buyUrl": "https://www.senileteam.com/",
         "description": "Top-down rally racing game with retro aesthetics.",
         "genre": "Racing",
-        "tags": ["racing", "rally", "top-down", "retro"]
+        "tags": [
+          "racing",
+          "rally",
+          "top-down",
+          "retro"
+        ]
       },
       {
         "id": "dc-003",
@@ -531,7 +1048,12 @@
         "buyUrl": "https://segabits.com/forums/index.php?topic=4705.90",
         "description": "A game where players assume the role of a principal in a unique high school setting.",
         "genre": "Simulation",
-        "tags": ["simulation", "school", "principal", "unique"]
+        "tags": [
+          "simulation",
+          "school",
+          "principal",
+          "unique"
+        ]
       }
     ],
     "ports": [
@@ -544,7 +1066,12 @@
         "buyUrl": "https://www.thedreamcastjunkyard.co.uk/",
         "description": "High-quality port of Doom 64 to the Dreamcast platform.",
         "genre": "FPS",
-        "tags": ["fps", "doom", "port", "high-quality"]
+        "tags": [
+          "fps",
+          "doom",
+          "port",
+          "high-quality"
+        ]
       },
       {
         "id": "dc-005",
@@ -555,7 +1082,12 @@
         "buyUrl": "https://www.thedreamcastjunkyard.co.uk/",
         "description": "Ongoing project to bring Mario Kart 64 to the Dreamcast.",
         "genre": "Racing",
-        "tags": ["racing", "mario-kart", "port", "ongoing"]
+        "tags": [
+          "racing",
+          "mario-kart",
+          "port",
+          "ongoing"
+        ]
       }
     ],
     "re-releases": [
@@ -568,7 +1100,12 @@
         "buyUrl": "https://www.thedreamcastjunkyard.co.uk/",
         "description": "Enhanced port of Quake III with online multiplayer support.",
         "genre": "FPS",
-        "tags": ["fps", "quake", "multiplayer", "online"]
+        "tags": [
+          "fps",
+          "quake",
+          "multiplayer",
+          "online"
+        ]
       }
     ],
     "in-development": [
@@ -581,7 +1118,12 @@
         "buyUrl": null,
         "description": "Upcoming compilation of new homebrew games for Dreamcast.",
         "genre": "Various",
-        "tags": ["collection", "homebrew", "compilation", "upcoming"]
+        "tags": [
+          "collection",
+          "homebrew",
+          "compilation",
+          "upcoming"
+        ]
       }
     ]
   }

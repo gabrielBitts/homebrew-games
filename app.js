@@ -40,7 +40,7 @@ class HomebrewGamesApp {
         document.querySelectorAll('.system-card').forEach(card => {
             card.addEventListener('click', (e) => {
                 const system = card.getAttribute('data-system');
-                this.navigateTo(`#${system}/released`);
+                this.navigateTo(`#${system}/new-games`);
             });
         });
 
