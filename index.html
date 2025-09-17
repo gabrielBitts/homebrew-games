@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homebrew Games Archive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="logo">
+                <h1><a href="/">Homebrew Games</a></h1>
+            </div>
+        </div>
+        <div class="header-nav">
+            <div class="nav-container">
+                <div class="nav-row nav-row-1">
+                    <div class="nav-item" data-system="sega-mega-drive">
+                        <span class="nav-link">Mega Drive</span>
+                        <div class="dropdown">
+                            <a href="#sega-mega-drive/new-games" class="dropdown-link">New Games</a>
+                            <a href="#sega-mega-drive/ports" class="dropdown-link">Ports</a>
+                            <a href="#sega-mega-drive/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#sega-mega-drive/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="super-nintendo">
+                        <span class="nav-link">Super Nintendo</span>
+                        <div class="dropdown">
+                            <a href="#super-nintendo/new-games" class="dropdown-link">New Games</a>
+                            <a href="#super-nintendo/ports" class="dropdown-link">Ports</a>
+                            <a href="#super-nintendo/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#super-nintendo/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="master-system">
+                        <span class="nav-link">Master System</span>
+                        <div class="dropdown">
+                            <a href="#master-system/new-games" class="dropdown-link">New Games</a>
+                            <a href="#master-system/ports" class="dropdown-link">Ports</a>
+                            <a href="#master-system/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#master-system/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="nes">
+                        <span class="nav-link">NES</span>
+                        <div class="dropdown">
+                            <a href="#nes/new-games" class="dropdown-link">New Games</a>
+                            <a href="#nes/ports" class="dropdown-link">Ports</a>
+                            <a href="#nes/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#nes/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-row nav-row-2">
+                    <div class="nav-item" data-system="playstation-1">
+                        <span class="nav-link">PlayStation</span>
+                        <div class="dropdown">
+                            <a href="#playstation-1/new-games" class="dropdown-link">New Games</a>
+                            <a href="#playstation-1/ports" class="dropdown-link">Ports</a>
+                            <a href="#playstation-1/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#playstation-1/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="nintendo-64">
+                        <span class="nav-link">Nintendo 64</span>
+                        <div class="dropdown">
+                            <a href="#nintendo-64/new-games" class="dropdown-link">New Games</a>
+                            <a href="#nintendo-64/ports" class="dropdown-link">Ports</a>
+                            <a href="#nintendo-64/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#nintendo-64/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="sega-saturn">
+                        <span class="nav-link">Sega Saturn</span>
+                        <div class="dropdown">
+                            <a href="#sega-saturn/new-games" class="dropdown-link">New Games</a>
+                            <a href="#sega-saturn/ports" class="dropdown-link">Ports</a>
+                            <a href="#sega-saturn/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#sega-saturn/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                    <div class="nav-item" data-system="sega-dreamcast">
+                        <span class="nav-link">Dreamcast</span>
+                        <div class="dropdown">
+                            <a href="#sega-dreamcast/new-games" class="dropdown-link">New Games</a>
+                            <a href="#sega-dreamcast/ports" class="dropdown-link">Ports</a>
+                            <a href="#sega-dreamcast/re-releases" class="dropdown-link">Re-Releases</a>
+                            <a href="#sega-dreamcast/in-development" class="dropdown-link">In Development</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <div id="home-page" class="page active">
+                <section class="hero">
+                    <h2>Discover Homebrew Games</h2>
+                    <p>Explore the world of independent game development for classic gaming systems</p>
+                </section>
+                
+                <section class="systems-grid">
+                    <div class="system-card" data-system="sega-mega-drive">
+                        <div class="system-image">
+                            <img src="assets/systems/sega-mega-drive.jpg" alt="Sega Mega Drive" loading="lazy">
+                        </div>
+                        <h3>Sega Mega Drive</h3>
+                        <p>16-bit powerhouse with amazing homebrew titles</p>
+                    </div>
+                    <div class="system-card" data-system="super-nintendo">
+                        <div class="system-image">
+                            <img src="assets/systems/super-nintendo.jpg" alt="Super Nintendo" loading="lazy">
+                        </div>
+                        <h3>Super Nintendo</h3>
+                        <p>Nintendo's 16-bit masterpiece with incredible homebrew</p>
+                    </div>
+                    <div class="system-card" data-system="master-system">
+                        <div class="system-image">
+                            <img src="assets/systems/master-system.jpg" alt="Master System" loading="lazy">
+                        </div>
+                        <h3>Master System</h3>
+                        <p>Sega's 8-bit system with growing homebrew scene</p>
+                    </div>
+                    <div class="system-card" data-system="nes">
+                        <div class="system-image">
+                            <img src="assets/systems/nes.jpg" alt="NES" loading="lazy">
+                        </div>
+                        <h3>NES</h3>
+                        <p>The classic 8-bit system with vibrant homebrew community</p>
+                    </div>
+                    <div class="system-card" data-system="playstation-1">
+                        <div class="system-image">
+                            <img src="assets/systems/playstation-1.jpg" alt="PlayStation" loading="lazy">
+                        </div>
+                        <h3>PlayStation 1</h3>
+                        <p>32-bit pioneer with impressive homebrew development</p>
+                    </div>
+                    <div class="system-card" data-system="nintendo-64">
+                        <div class="system-image">
+                            <img src="assets/systems/nintendo-64.jpg" alt="Nintendo 64" loading="lazy">
+                        </div>
+                        <h3>Nintendo 64</h3>
+                        <p>64-bit innovation with dedicated homebrew community</p>
+                    </div>
+                    <div class="system-card" data-system="sega-saturn">
+                        <div class="system-image">
+                            <img src="assets/systems/sega-saturn.jpg" alt="Sega Saturn" loading="lazy">
+                        </div>
+                        <h3>Sega Saturn</h3>
+                        <p>Dual-CPU powerhouse with unique homebrew scene</p>
+                    </div>
+                    <div class="system-card" data-system="sega-dreamcast">
+                        <div class="system-image">
+                            <img src="assets/systems/sega-dreamcast.jpg" alt="Sega Dreamcast" loading="lazy">
+                        </div>
+                        <h3>Sega Dreamcast</h3>
+                        <p>Internet-ready console with thriving indie development</p>
+                    </div>
+                </section>
+            </div>
+
+            <div id="games-page" class="page">
+                <div class="page-header">
+                    <h2 id="page-title">Games</h2>
+                    <div class="filters">
+                        <span id="current-system"></span>
+                        <span id="current-status"></span>
+                    </div>
+                </div>
+                
+                <div id="games-grid" class="games-grid">
+                    <!-- Games will be loaded here dynamically -->
+                </div>
+                
+                <div id="loading" class="loading hidden">
+                    <div class="spinner"></div>
+                    <p>Loading more games...</p>
+                </div>
+                
+                <div id="no-more-games" class="no-more-games hidden">
+                    <p>No more games to load</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Homebrew Games Archive. Built with ❤️ for retro gaming enthusiasts.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
