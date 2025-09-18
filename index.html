@@ -182,10 +182,29 @@
 
             <div id="games-page" class="page">
                 <div class="page-header">
-                    <h2 id="page-title">Games</h2>
-                    <div class="filters">
-                        <span id="current-system"></span>
-                        <span id="current-status"></span>
+                    <div class="page-header-top">
+                        <h2 id="page-title">Games</h2>
+                        <div class="filters">
+                            <span id="current-system"></span>
+                            <span id="current-status"></span>
+                        </div>
+                    </div>
+                    <div class="sort-controls">
+                        <div class="sort-group">
+                            <label for="sort-by">Sort by:</label>
+                            <select id="sort-by">
+                                <option value="title-asc">Title (A-Z)</option>
+                                <option value="title-desc">Title (Z-A)</option>
+                                <option value="title-num-asc">Title (0-9)</option>
+                                <option value="title-num-desc">Title (9-0)</option>
+                                <option value="developer-asc">Developer (A-Z)</option>
+                                <option value="developer-desc">Developer (Z-A)</option>
+                                <option value="developer-num-asc">Developer (0-9)</option>
+                                <option value="developer-num-desc">Developer (9-0)</option>
+                                <option value="year-desc">Year (Newest First)</option>
+                                <option value="year-asc">Year (Oldest First)</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
                 

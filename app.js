@@ -13,6 +13,7 @@ class HomebrewGamesApp {
         this.currentLanguage = 'en';
         this.currentTheme = 'dark';
         this.translations = {};
+        this.currentSort = 'title-asc';
         
         this.init();
     }
@@ -25,6 +26,7 @@ class HomebrewGamesApp {
         await this.loadGamesData();
         this.updateLanguage();
         this.updateTheme();
+        this.initializeSort();
     }
 
     setupEventListeners() {
@@ -72,6 +74,19 @@ class HomebrewGamesApp {
         // Theme switcher event listener
         document.getElementById('theme-toggle').addEventListener('click', () => {
             this.toggleTheme();
+        });
+
+        // Sort controls event listener
+        document.getElementById('sort-by').addEventListener('change', (e) => {
+            this.currentSort = e.target.value;
+            this.saveSettings();
+            
+            // Re-filter and sort games if we're on the games page
+            if (this.currentPage === 'games' && this.currentSystem && this.currentStatus) {
+                this.filterGames(this.currentSystem, this.currentStatus);
+                this.resetGamesList();
+                this.loadMoreGames();
+            }
         });
     }
 
@@ -201,7 +216,64 @@ class HomebrewGamesApp {
         this.filteredGames = this.games.filter(game => 
             game.system === system && game.status === status
         );
+        this.sortGames();
         this.hasMoreGames = this.filteredGames.length > 0;
+    }
+
+    sortGames() {
+        if (!this.filteredGames || this.filteredGames.length === 0) {
+            return;
+        }
+
+        this.filteredGames.sort((a, b) => {
+            switch (this.currentSort) {
+                case 'title-asc':
+                    return a.title.localeCompare(b.title);
+                case 'title-desc':
+                    return b.title.localeCompare(a.title);
+                case 'title-num-asc':
+                    return this.sortByNumbers(a.title, b.title, true);
+                case 'title-num-desc':
+                    return this.sortByNumbers(a.title, b.title, false);
+                case 'developer-asc':
+                    return a.developer.localeCompare(b.developer);
+                case 'developer-desc':
+                    return b.developer.localeCompare(a.developer);
+                case 'developer-num-asc':
+                    return this.sortByNumbers(a.developer, b.developer, true);
+                case 'developer-num-desc':
+                    return this.sortByNumbers(a.developer, b.developer, false);
+                case 'year-desc':
+                    return (b.year || 0) - (a.year || 0);
+                case 'year-asc':
+                    return (a.year || 0) - (b.year || 0);
+                default:
+                    return 0;
+            }
+        });
+    }
+
+    sortByNumbers(a, b, ascending = true) {
+        // Extract numbers from strings and sort by them
+        const getNumbers = (str) => {
+            const matches = str.match(/\d+/g);
+            return matches ? matches.map(Number) : [];
+        };
+
+        const aNumbers = getNumbers(a);
+        const bNumbers = getNumbers(b);
+
+        // If both have numbers, compare them
+        if (aNumbers.length > 0 && bNumbers.length > 0) {
+            for (let i = 0; i < Math.min(aNumbers.length, bNumbers.length); i++) {
+                if (aNumbers[i] !== bNumbers[i]) {
+                    return ascending ? aNumbers[i] - bNumbers[i] : bNumbers[i] - aNumbers[i];
+                }
+            }
+        }
+
+        // Fallback to alphabetical comparison
+        return ascending ? a.localeCompare(b) : b.localeCompare(a);
     }
 
     resetGamesList() {
@@ -304,11 +376,13 @@ class HomebrewGamesApp {
     loadSettings() {
         this.currentLanguage = localStorage.getItem('language') || 'en';
         this.currentTheme = localStorage.getItem('theme') || 'dark';
+        this.currentSort = localStorage.getItem('sort') || 'title-asc';
     }
 
     saveSettings() {
         localStorage.setItem('language', this.currentLanguage);
         localStorage.setItem('theme', this.currentTheme);
+        localStorage.setItem('sort', this.currentSort);
     }
 
     // Translation functionality
@@ -406,6 +480,13 @@ class HomebrewGamesApp {
         } else {
             body.removeAttribute('data-theme');
             if (themeIcon) themeIcon.textContent = '🌙';
+        }
+    }
+
+    initializeSort() {
+        const sortSelect = document.getElementById('sort-by');
+        if (sortSelect) {
+            sortSelect.value = this.currentSort;
         }
     }
 }
