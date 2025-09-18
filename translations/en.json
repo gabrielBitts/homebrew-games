@@ -38,5 +38,7 @@
   "games-total-text": "games",
   "games-total-prefix": "Total of",
   "download-free": "Download Free",
-  "free-game": "Free"
+  "free-game": "Free",
+  "filter-categories": "Filter by category:",
+  "filter-all": "All"
 }

@@ -3,7 +3,7 @@ class HomebrewGamesApp {
     constructor() {
         this.currentPage = 'home';
         this.currentSystem = null;
-        this.currentStatus = null;
+        this.currentFilters = ['all']; // Array to support multiple filter selection
         this.games = [];
         this.filteredGames = [];
         this.currentGameIndex = 0;
@@ -37,7 +37,7 @@ class HomebrewGamesApp {
         });
 
         // Navigation event listeners
-        document.querySelectorAll('.dropdown-link').forEach(link => {
+        document.querySelectorAll('.nav-link[data-system]').forEach(link => {
             link.addEventListener('click', (e) => {
                 e.preventDefault();
                 const href = e.target.getAttribute('href');
@@ -49,7 +49,7 @@ class HomebrewGamesApp {
         document.querySelectorAll('.system-card').forEach(card => {
             card.addEventListener('click', (e) => {
                 const system = card.getAttribute('data-system');
-                this.navigateTo(`#${system}/new-games`);
+                this.navigateTo(`#${system}`);
             });
         });
 
@@ -82,11 +82,19 @@ class HomebrewGamesApp {
             this.saveSettings();
             
             // Re-filter and sort games if we're on the games page
-            if (this.currentPage === 'games' && this.currentSystem && this.currentStatus) {
-                this.filterGames(this.currentSystem, this.currentStatus);
+            if (this.currentPage === 'games' && this.currentSystem) {
+                this.filterGames(this.currentSystem, this.currentFilters);
                 this.resetGamesList();
                 this.loadMoreGames();
             }
+        });
+
+        // Filter buttons event listeners
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const filter = e.target.getAttribute('data-filter');
+                this.handleFilterClick(filter);
+            });
         });
     }
 
@@ -110,41 +118,58 @@ class HomebrewGamesApp {
             return;
         }
 
-        // Parse route: #system/status
-        const routeParts = route.substring(1).split('/');
-        if (routeParts.length === 2) {
-            const [system, status] = routeParts;
-            this.showGamesPage(system, status);
+        // Parse route: #system (no more /status)
+        const system = route.substring(1);
+        if (system) {
+            this.showGamesPage(system);
         }
     }
 
     showHomePage() {
         this.currentPage = 'home';
+        this.currentSystem = null;
         document.getElementById('home-page').classList.add('active');
         document.getElementById('games-page').classList.remove('active');
         document.title = 'Homebrew Games';
+        
+        // Reset navigation highlighting
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+        });
     }
 
-    showGamesPage(system, status) {
+    showGamesPage(system) {
         this.currentPage = 'games';
         this.currentSystem = system;
-        this.currentStatus = status;
+        this.currentFilters = ['all']; // Reset filters to show all games
         
         // Update page visibility
         document.getElementById('home-page').classList.remove('active');
         document.getElementById('games-page').classList.add('active');
         
+        // Update navigation highlighting
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('data-system') === system) {
+                link.classList.add('active');
+            }
+        });
+        
+        // Reset filter buttons
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.classList.remove('active');
+            if (btn.getAttribute('data-filter') === 'all') {
+                btn.classList.add('active');
+            }
+        });
+        
         // Update page title and header
         const systemName = this.getSystemDisplayName(system);
-        const statusKey = `category-${status}`;
-        const statusName = this.translations[statusKey] || status.charAt(0).toUpperCase() + status.slice(1);
-        
-        // Update the title with the new format: "Section name" "System name" "total of games"
-        document.getElementById('page-title').textContent = `${statusName} ${systemName}`;
-        document.title = `${statusName} ${systemName} - Homebrew Games Archive`;
+        document.getElementById('page-title').textContent = systemName;
+        document.title = `${systemName} - Homebrew Games Archive`;
         
         // Filter and display games
-        this.filterGames(system, status);
+        this.filterGames(system, this.currentFilters);
         this.updateGamesCount();
         this.resetGamesList();
         this.loadMoreGames();
@@ -208,10 +233,16 @@ class HomebrewGamesApp {
         }
     }
 
-    filterGames(system, status) {
-        this.filteredGames = this.games.filter(game => 
-            game.system === system && game.status === status
-        );
+    filterGames(system, filters) {
+        // If 'all' is selected or no specific filters, show all games for the system
+        if (filters.includes('all') || filters.length === 0) {
+            this.filteredGames = this.games.filter(game => game.system === system);
+        } else {
+            // Show games that match any of the selected filters
+            this.filteredGames = this.games.filter(game => 
+                game.system === system && filters.includes(game.status)
+            );
+        }
         this.sortGames();
         this.hasMoreGames = this.filteredGames.length > 0;
         this.updateGamesCount();
@@ -376,6 +407,43 @@ class HomebrewGamesApp {
         gamesGrid.appendChild(gameCard);
     }
 
+    handleFilterClick(filter) {
+        if (filter === 'all') {
+            // If 'All' is clicked, deselect all other filters and select only 'all'
+            this.currentFilters = ['all'];
+        } else {
+            // If a specific filter is clicked
+            if (this.currentFilters.includes('all')) {
+                // If 'all' was selected, replace it with the specific filter
+                this.currentFilters = [filter];
+            } else {
+                // Toggle the filter
+                if (this.currentFilters.includes(filter)) {
+                    this.currentFilters = this.currentFilters.filter(f => f !== filter);
+                    // If no filters left, select 'all'
+                    if (this.currentFilters.length === 0) {
+                        this.currentFilters = ['all'];
+                    }
+                } else {
+                    this.currentFilters.push(filter);
+                }
+            }
+        }
+
+        // Update button states
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            const btnFilter = btn.getAttribute('data-filter');
+            btn.classList.toggle('active', this.currentFilters.includes(btnFilter));
+        });
+
+        // Re-filter games
+        if (this.currentPage === 'games' && this.currentSystem) {
+            this.filterGames(this.currentSystem, this.currentFilters);
+            this.resetGamesList();
+            this.loadMoreGames();
+        }
+    }
+
     handleScroll() {
         if (this.currentPage !== 'games' || this.isLoading || !this.hasMoreGames) return;
 
@@ -464,17 +532,11 @@ class HomebrewGamesApp {
             noMoreGamesElement.textContent = this.translations['no-more-games'];
         }
 
-        // Update all dropdown links
-        document.querySelectorAll('.dropdown-link').forEach(link => {
-            const href = link.getAttribute('href');
-            if (href.includes('/new-games')) {
-                link.textContent = this.translations['nav-new-games'] || 'New Games';
-            } else if (href.includes('/ports')) {
-                link.textContent = this.translations['nav-ports'] || 'Ports';
-            } else if (href.includes('/re-releases')) {
-                link.textContent = this.translations['nav-re-releases'] || 'Re-Releases';
-            } else if (href.includes('/in-development')) {
-                link.textContent = this.translations['nav-in-development'] || 'In Development';
+        // Update filter button text
+        document.querySelectorAll('.filter-btn[data-translate]').forEach(btn => {
+            const key = btn.getAttribute('data-translate');
+            if (this.translations[key]) {
+                btn.textContent = this.translations[key];
             }
         });
     }

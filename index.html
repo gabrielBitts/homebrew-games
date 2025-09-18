@@ -32,81 +32,15 @@
         </div>
         <div class="header-nav">
             <div class="nav-container">
-                <div class="nav-row nav-row-1">
-                    <div class="nav-item" data-system="sega-mega-drive">
-                        <span class="nav-link">Mega Drive</span>
-                        <div class="dropdown">
-                            <a href="#sega-mega-drive/new-games" class="dropdown-link" data-translate="nav-new-games">New Games</a>
-                            <a href="#sega-mega-drive/ports" class="dropdown-link" data-translate="nav-ports">Ports</a>
-                            <a href="#sega-mega-drive/re-releases" class="dropdown-link" data-translate="nav-re-releases">Re-Releases</a>
-                            <a href="#sega-mega-drive/in-development" class="dropdown-link" data-translate="nav-in-development">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="super-nintendo">
-                        <span class="nav-link">Super Nintendo</span>
-                        <div class="dropdown">
-                            <a href="#super-nintendo/new-games" class="dropdown-link">New Games</a>
-                            <a href="#super-nintendo/ports" class="dropdown-link">Ports</a>
-                            <a href="#super-nintendo/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#super-nintendo/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="master-system">
-                        <span class="nav-link">Master System</span>
-                        <div class="dropdown">
-                            <a href="#master-system/new-games" class="dropdown-link">New Games</a>
-                            <a href="#master-system/ports" class="dropdown-link">Ports</a>
-                            <a href="#master-system/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#master-system/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="nes">
-                        <span class="nav-link">NES</span>
-                        <div class="dropdown">
-                            <a href="#nes/new-games" class="dropdown-link">New Games</a>
-                            <a href="#nes/ports" class="dropdown-link">Ports</a>
-                            <a href="#nes/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#nes/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="nav-row nav-row-2">
-                    <div class="nav-item" data-system="playstation-1">
-                        <span class="nav-link">PlayStation</span>
-                        <div class="dropdown">
-                            <a href="#playstation-1/new-games" class="dropdown-link">New Games</a>
-                            <a href="#playstation-1/ports" class="dropdown-link">Ports</a>
-                            <a href="#playstation-1/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#playstation-1/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="nintendo-64">
-                        <span class="nav-link">Nintendo 64</span>
-                        <div class="dropdown">
-                            <a href="#nintendo-64/new-games" class="dropdown-link">New Games</a>
-                            <a href="#nintendo-64/ports" class="dropdown-link">Ports</a>
-                            <a href="#nintendo-64/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#nintendo-64/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="sega-saturn">
-                        <span class="nav-link">Sega Saturn</span>
-                        <div class="dropdown">
-                            <a href="#sega-saturn/new-games" class="dropdown-link">New Games</a>
-                            <a href="#sega-saturn/ports" class="dropdown-link">Ports</a>
-                            <a href="#sega-saturn/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#sega-saturn/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
-                    <div class="nav-item" data-system="sega-dreamcast">
-                        <span class="nav-link">Dreamcast</span>
-                        <div class="dropdown">
-                            <a href="#sega-dreamcast/new-games" class="dropdown-link">New Games</a>
-                            <a href="#sega-dreamcast/ports" class="dropdown-link">Ports</a>
-                            <a href="#sega-dreamcast/re-releases" class="dropdown-link">Re-Releases</a>
-                            <a href="#sega-dreamcast/in-development" class="dropdown-link">In Development</a>
-                        </div>
-                    </div>
+                <div class="nav-row">
+                    <a href="#sega-mega-drive" class="nav-link" data-system="sega-mega-drive">Mega Drive</a>
+                    <a href="#super-nintendo" class="nav-link" data-system="super-nintendo">Super Nintendo</a>
+                    <a href="#master-system" class="nav-link" data-system="master-system">Master System</a>
+                    <a href="#nes" class="nav-link" data-system="nes">NES</a>
+                    <a href="#playstation-1" class="nav-link" data-system="playstation-1">PlayStation</a>
+                    <a href="#nintendo-64" class="nav-link" data-system="nintendo-64">Nintendo 64</a>
+                    <a href="#sega-saturn" class="nav-link" data-system="sega-saturn">Sega Saturn</a>
+                    <a href="#sega-dreamcast" class="nav-link" data-system="sega-dreamcast">Dreamcast</a>
                 </div>
             </div>
         </div>
@@ -190,6 +124,20 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <div class="filter-controls">
+                        <div class="filter-group">
+                            <label data-translate="filter-categories">Filter by category:</label>
+                            <div class="filter-buttons">
+                                <button class="filter-btn active" data-filter="all" data-translate="filter-all">All</button>
+                                <button class="filter-btn" data-filter="new-games" data-translate="nav-new-games">New Games</button>
+                                <button class="filter-btn" data-filter="ports" data-translate="nav-ports">Ports</button>
+                                <button class="filter-btn" data-filter="re-releases" data-translate="nav-re-releases">Re-Releases</button>
+                                <button class="filter-btn" data-filter="in-development" data-translate="nav-in-development">In Development</button>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <div class="sort-controls">
                         <div class="sort-group">
                             <label for="sort-by">Sort by:</label>
