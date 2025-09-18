@@ -34,5 +34,7 @@
   "category-new-games": "Jogos Novos",
   "category-ports": "Ports",
   "category-re-releases": "Relançamentos",
-  "category-in-development": "Em Desenvolvimento"
+  "category-in-development": "Em Desenvolvimento",
+  "games-total-text": "jogos",
+  "games-total-prefix": "Total de"
 }

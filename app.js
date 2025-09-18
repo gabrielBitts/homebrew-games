@@ -136,20 +136,16 @@ class HomebrewGamesApp {
         
         // Update page title and header
         const systemName = this.getSystemDisplayName(system);
-        const statusNames = {
-            'new-games': 'New Games',
-            'ports': 'Ports',
-            're-releases': 'Re-Releases',
-            'in-development': 'In Development'
-        };
-        const statusName = statusNames[status] || status.charAt(0).toUpperCase() + status.slice(1);
-        document.getElementById('page-title').textContent = `${systemName} Games`;
-        document.getElementById('current-system').textContent = systemName;
-        document.getElementById('current-status').textContent = statusName;
-        document.title = `${systemName} ${statusName} Games - Homebrew Games Archive`;
+        const statusKey = `category-${status}`;
+        const statusName = this.translations[statusKey] || status.charAt(0).toUpperCase() + status.slice(1);
+        
+        // Update the title with the new format: "Section name" "System name" "total of games"
+        document.getElementById('page-title').textContent = `${statusName} ${systemName}`;
+        document.title = `${statusName} ${systemName} - Homebrew Games Archive`;
         
         // Filter and display games
         this.filterGames(system, status);
+        this.updateGamesCount();
         this.resetGamesList();
         this.loadMoreGames();
     }
@@ -160,12 +156,12 @@ class HomebrewGamesApp {
             'super-nintendo': 'Super Nintendo',
             'master-system': 'Master System',
             'nes': 'NES',
-            'playstation-1': 'PlayStation',
+            'playstation-1': 'PlayStation 1',
             'nintendo-64': 'Nintendo 64',
             'sega-saturn': 'Sega Saturn',
             'sega-dreamcast': 'Sega Dreamcast'
         };
-        return systemNames[system] || system;
+        return systemNames[system] || system.charAt(0).toUpperCase() + system.slice(1);
     }
 
     async loadGamesData() {
@@ -218,6 +214,7 @@ class HomebrewGamesApp {
         );
         this.sortGames();
         this.hasMoreGames = this.filteredGames.length > 0;
+        this.updateGamesCount();
     }
 
     sortGames() {
@@ -251,6 +248,13 @@ class HomebrewGamesApp {
                     return 0;
             }
         });
+    }
+
+    updateGamesCount() {
+        const gamesTotalElement = document.getElementById('games-total');
+        if (gamesTotalElement && this.filteredGames) {
+            gamesTotalElement.textContent = this.filteredGames.length;
+        }
     }
 
     sortByNumbers(a, b, ascending = true) {

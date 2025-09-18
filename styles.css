@@ -361,21 +361,34 @@ body {
 
 .page-header-top {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
     width: 100%;
+}
+
+.page-title-section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 .page-header h2 {
     font-size: 2rem;
     font-weight: 700;
+    margin: 0;
 }
 
-.filters {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
+.games-count {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
 }
+
+.games-count #games-total {
+    font-weight: 700;
+    color: var(--accent-color);
+}
+
 
 .sort-controls {
     margin-top: 1rem;
@@ -675,7 +688,7 @@ body {
 
     .page-header-top {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         gap: 1rem;
         width: 100%;
     }
