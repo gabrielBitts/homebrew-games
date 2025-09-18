@@ -185,6 +185,247 @@
           "action",
           "second-dimension"
         ]
+      },
+      {
+        "id": "smd-018",
+        "title": "Papi Commando: 2nd Blood",
+        "developer": "Mega Cat Studios",
+        "year": 2021,
+        "cover": "assets/games/md/papi-commando-2nd-blood.jpg",
+        "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/35-papi-commando-second-blood-gen-md.html",
+        "genre": "Run and Gun",
+        "tags": [
+          "run-and-gun",
+          "action",
+          "mega-cat-studios",
+          "sequel"
+        ]
+      },
+      {
+        "id": "smd-019",
+        "title": "Gluf",
+        "developer": "Mega Cat Studios",
+        "year": 2020,
+        "cover": "assets/games/md/gluf.jpg",
+        "buyUrl": "https://megacatstudios.com/collections/16-bit/products/gluf",
+        "genre": "Puzzle Platformer",
+        "tags": [
+          "puzzle",
+          "platformer",
+          "mega-cat-studios",
+          "charming"
+        ]
+      },
+      {
+        "id": "smd-020",
+        "title": "Devwill Too",
+        "developer": "Mega Cat Studios",
+        "year": 2020,
+        "cover": "assets/games/md/devwill-too.jpg",
+        "buyUrl": "https://megacatstudios.com/collections/16-bit/products/devwill-2",
+        "genre": "Platformer",
+        "tags": [
+          "platformer",
+          "dark",
+          "mega-cat-studios",
+          "challenging"
+        ]
+      },
+      {
+        "id": "smd-021",
+        "title": "Switchblade",
+        "developer": "Piko Interactive",
+        "year": 2020,
+        "cover": "assets/games/md/switchblade.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Switchblade-Genesis-p132666219",
+        "genre": "Action Adventure",
+        "tags": [
+          "action-adventure",
+          "piko-interactive",
+          "dystopian",
+          "puzzle"
+        ]
+      },
+      {
+        "id": "smd-023",
+        "title": "Metal Dragon",
+        "developer": "Mega Cat Studios",
+        "year": 2021,
+        "cover": "assets/games/md/metal-dragon.jpg",
+        "buyUrl": "https://kai-magazine-software.fwscart.com/",
+        "genre": "Run and Gun",
+        "tags": [
+          "run-and-gun",
+          "cyberpunk",
+          "mega-cat-studios",
+          "shooter"
+        ]
+      },
+      {
+        "id": "smd-024",
+        "title": "FX Unit Yuki",
+        "developer": "FX Unit Yuki Team",
+        "year": 2020,
+        "cover": "assets/games/md/fx-unit-yuki.jpg",
+        "buyUrl": "https://www.sarumaru.com/products",
+        "genre": "Platformer",
+        "tags": [
+          "platformer",
+          "fx-unit-yuki",
+          "transformation",
+          "heroine"
+        ]
+      },
+      {
+        "id": "smd-025",
+        "title": "Canon: Legend of the New Gods",
+        "developer": "Piko Interactive",
+        "year": 2019,
+        "cover": "assets/games/md/canon.png",
+        "buyUrl": "https://www.pikointeractive.com/home/Canon-Legends-Of-The-New-Gods-Genesis-p132666164",
+        "genre": "Tactical RPG",
+        "tags": [
+          "tactical-rpg",
+          "piko-interactive",
+          "china",
+          "strategy"
+        ]
+      },
+      {
+        "id": "smd-026",
+        "title": "Eyra: The Crow Maiden",
+        "developer": "Mega Cat Studios",
+        "year": 2021,
+        "cover": "assets/games/md/eyra.jpg",
+        "buyUrl": "https://second-dimension.com/store/eyra-the-crow-maiden-sega",
+        "genre": "Action Platformer",
+        "tags": [
+          "action-platformer",
+          "mega-cat-studios",
+          "warrior",
+          "maiden"
+        ]
+      },
+      {
+        "id": "smd-027",
+        "title": "Pier Solar",
+        "developer": "WaterMelon Games",
+        "year": 2010,
+        "cover": "assets/games/md/pier-solar.jpg",
+        "buyUrl": "https://www.magicalgamefactory.com/en/factory/shop/",
+        "genre": "RPG",
+        "tags": [
+          "rpg",
+          "watermelon-games",
+          "turn-based",
+          "classic"
+        ]
+      },
+      {
+        "id": "smd-028",
+        "title": "Arkagis Revolution",
+        "developer": "Arkagis Team",
+        "year": 2021,
+        "cover": "assets/games/md/arkagis-revolution.png",
+        "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/29-arkagis-revolution-gen-md.html",
+        "genre": "Top-Down Shooter",
+        "description": "A top-down shooter with 3D rotation effects, offering a unique gameplay experience on the Mega Drive.",
+        "tags": [
+          "top-down-shooter",
+          "arkagis",
+          "3d-rotation",
+          "unique"
+        ]
+      },
+      {
+        "id": "smd-029",
+        "title": "Life on Mars: Genesis",
+        "developer": "Kai Magazine",
+        "year": 2022,
+        "cover": "assets/games/md/life-on-mars.jpg",
+        "buyUrl": "https://kai-magazine-software.fwscart.com/",
+        "genre": "Action Adventure",
+        "tags": [
+          "action-adventure",
+          "kai-magazine",
+          "sci-fi",
+          "mars"
+        ]
+      },
+      {
+        "id": "smd-030",
+        "title": "Water Margin",
+        "developer": "Piko Interactive",
+        "year": 2018,
+        "cover": "assets/games/md/water-margin.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Water-Margin-The-Tales-of-Clouds-and-Winds-Genesis-p53205768",
+        "genre": "Beat 'em Up",
+        "tags": [
+          "beat-em-up",
+          "piko-interactive",
+          "china",
+          "cooperative"
+        ]
+      },
+      {
+        "id": "smd-031",
+        "title": "Brave Battle Saga - Legend of the Magic Warrior",
+        "developer": "Piko Interactive",
+        "year": 2019,
+        "cover": "assets/games/md/brave-battle.png",
+        "buyUrl": "https://www.pikointeractive.com/home/Brave-Battle-Saga-The-Legend-of-the-Magic-Warrior-p93651781",
+        "genre": "RPG",
+        "tags": [
+          "rpg",
+          "piko-interactive",
+          "sci-fi",
+          "fantasy"
+        ]
+      },
+      {
+        "id": "smd-032",
+        "title": "Ultracore",
+        "developer": "Strictly Limited Games",
+        "year": 2019,
+        "cover": "assets/games/md/ultra-core.webp",
+        "buyUrl": "https://www.strictlylimitedgames.com/products/ultracore-mega-drive-game-preorder",
+        "genre": "Run and Gun",
+        "tags": [
+          "run-and-gun",
+          "strictly-limited-games",
+          "90s",
+          "fast-paced"
+        ]
+      },
+      {
+        "id": "smd-033",
+        "title": "Tanzer",
+        "developer": "Mega Cat Studios",
+        "year": 2021,
+        "cover": "assets/games/md/tanzer.png",
+        "buyUrl": "https://megacatstudios.com/collections/16-bit/products/tanzer-sega-genesis",
+        "genre": "Action Platformer",
+        "tags": [
+          "action-platformer",
+          "mega-cat-studios",
+          "procedural",
+          "fast-paced"
+        ]
+      },
+      {
+        "id": "smd-034",
+        "title": "Paprium",
+        "developer": "WaterMelon Games",
+        "year": 2020,
+        "cover": "assets/games/md/paprium.png",
+        "buyUrl": "https://www.kickstarter.com/projects/573261866/paprium-the-16-bit-beat-them-all-coming-to-the-next-gen",
+        "genre": "Beat 'em Up",
+        "tags": [
+          "beat-em-up",
+          "watermelon-games",
+          "side-scrolling",
+          "high-quality"
+        ]
       }
     ],
     "ports": [
@@ -311,8 +552,7 @@
         "tags": [
           "shmup",
           "renovation",
-          "retro-bit",
-          "translation"
+          "retro-bit"
         ]
       },
       {
@@ -466,6 +706,36 @@
           "d4-enterprise",
           "retro-bit",
           "t&e-soft"
+        ]
+      },
+      {
+        "id": "smd-022",
+        "title": "Beggar Prince",
+        "developer": "Piko Interactive",
+        "year": 2015,
+        "cover": "assets/games/md/beggar-prince.jpg",
+        "buyUrl": "https://www.pikointeractive.com/product/beggar-prince-sega-genesis/",
+        "genre": "RPG",
+        "description": "A classic RPG where you play as a prince who switches places with a beggar, embarking on a quest filled with adventure.",
+        "tags": [
+          "rpg",
+          "piko-interactive",
+          "classic",
+          "adventure"
+        ]
+      },
+      {
+        "id": "smd-022",
+        "title": "Thunderbolt II",
+        "developer": "Piko Interactive",
+        "year": 2015,
+        "cover": "assets/games/md/thunderbolt2.png",
+        "buyUrl": "https://www.pikointeractive.com/home/Thunderbolt-II-Genesis-p132768082",
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "shmup",
+          "piko-interactive",
+          "thunderbolt"
         ]
       }
     ],
