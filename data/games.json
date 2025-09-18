@@ -189,9 +189,9 @@
       {
         "id": "smd-018",
         "title": "Papi Commando: 2nd Blood",
-        "developer": "Mega Cat Studios",
-        "year": 2021,
-        "cover": "assets/games/md/papi-commando-2nd-blood.jpg",
+        "developer": "Vetea, Broke Studio",
+        "year": 2020,
+        "cover": "assets/games/md/papi-commando-2.png",
         "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/35-papi-commando-second-blood-gen-md.html",
         "genre": "Run and Gun",
         "tags": [
@@ -221,7 +221,7 @@
         "title": "Devwill Too",
         "developer": "Mega Cat Studios",
         "year": 2020,
-        "cover": "assets/games/md/devwill-too.jpg",
+        "cover": "assets/games/md/devwill-two.jpg",
         "buyUrl": "https://megacatstudios.com/collections/16-bit/products/devwill-2",
         "genre": "Platformer",
         "tags": [
@@ -236,7 +236,7 @@
         "title": "Switchblade",
         "developer": "Piko Interactive",
         "year": 2020,
-        "cover": "assets/games/md/switchblade.jpg",
+        "cover": "assets/games/md/switch-blade.png",
         "buyUrl": "https://www.pikointeractive.com/home/Switchblade-Genesis-p132666219",
         "genre": "Action Adventure",
         "tags": [
@@ -251,7 +251,7 @@
         "title": "Metal Dragon",
         "developer": "Mega Cat Studios",
         "year": 2021,
-        "cover": "assets/games/md/metal-dragon.jpg",
+        "cover": "assets/games/md/metal-dragon.png",
         "buyUrl": "https://kai-magazine-software.fwscart.com/",
         "genre": "Run and Gun",
         "tags": [
@@ -266,7 +266,7 @@
         "title": "FX Unit Yuki",
         "developer": "FX Unit Yuki Team",
         "year": 2020,
-        "cover": "assets/games/md/fx-unit-yuki.jpg",
+        "cover": "assets/games/md/fx-yuki.jpg",
         "buyUrl": "https://www.sarumaru.com/products",
         "genre": "Platformer",
         "tags": [
@@ -342,7 +342,7 @@
         "title": "Life on Mars: Genesis",
         "developer": "Kai Magazine",
         "year": 2022,
-        "cover": "assets/games/md/life-on-mars.jpg",
+        "cover": "assets/games/md/life-on-mars.png",
         "buyUrl": "https://kai-magazine-software.fwscart.com/",
         "genre": "Action Adventure",
         "tags": [
@@ -447,8 +447,8 @@
         "id": "smd-036",
         "title": "The Secret of the Four Winds",
         "developer": "Independent Developer",
-        "year": 2022,
-        "cover": "assets/games/md/secret-four-winds.jpg",
+        "year": 2025,
+        "cover": "assets/games/md/four-winds.jpg",
         "buyUrl": "https://kai-magazine-software.fwscart.com/",
         "genre": "Adventure",
         "description": "An adventure game exploring the mysteries of the four winds.",
@@ -464,7 +464,7 @@
         "title": "The Cursed Legacy",
         "developer": "Broke Studio, GGS Studio Creation",
         "year": 2025,
-        "cover": "assets/games/md/cursed-legacy.jpg",
+        "cover": "assets/games/md/cursed-legacy.png",
         "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/141-the-cursed-legacy-gen-md.html",
         "genre": "Action Adventure",
         "description": "An action-adventure game about uncovering a cursed legacy.",
@@ -497,7 +497,7 @@
         "developer": "Mega Cat Studios",
         "year": 2024,
         "cover": "assets/games/md/alter-ego.jpg",
-        "buyUrl": "https://megacatstudios.com/pages/alter-ego-dreamwalker",
+        "buyUrl": "https://megacatstudios.com/pages/alter-ego.jpg",
         "genre": "Action Adventure",
         "description": "An action-adventure game featuring dreamwalking mechanics and alter ego gameplay.",
         "tags": [
@@ -526,8 +526,8 @@
       {
         "id": "smd-041",
         "title": "Old Towers",
-        "developer": "Mega Cat Studios",
-        "year": 2024,
+        "developer": "Retrosouls, Mega Cat Studios",
+        "year": 2019,
         "cover": "assets/games/md/old-towers.jpg",
         "buyUrl": "https://megacatstudios.com/pages/old-towers",
         "genre": "Action Adventure",
@@ -544,7 +544,7 @@
         "title": "Romeow and Julicat",
         "developer": "Mega Cat Studios",
         "year": 2024,
-        "cover": "assets/games/md/romeow-julicat.jpg",
+        "cover": "assets/games/md/romeow.webp",
         "buyUrl": "https://megacatstudios.com/pages/romeow-and-julicat",
         "genre": "Action Platformer",
         "description": "A romantic action-platformer featuring the characters Romeow and Julicat in their adventures.",
@@ -574,14 +574,15 @@
       {
         "id": "smd-044",
         "title": "Sacred Line",
-        "developer": "Mega Cat Studios",
-        "year": 2024,
-        "cover": "assets/games/md/sacred-line.jpg",
+        "developer": "Sasha Darko, Mega Cat Studios",
+        "year": 2015,
+        "cover": "assets/games/md/sacred-line.png",
         "buyUrl": "https://megacatstudios.com/pages/sacred-line-1",
-        "genre": "Action Adventure",
-        "description": "An action-adventure game exploring sacred lines and mystical elements.",
+        "genre": "Visual Novel",
+        "description": "A visual novel exploring sacred lines and mystical elements.",
         "tags": [
-          "action-adventure",
+          "visual-novel",
+          "sasha-darko",
           "mega-cat-studios",
           "sacred",
           "mystical"
@@ -590,17 +591,46 @@
       {
         "id": "smd-045",
         "title": "Sacred Line 2",
-        "developer": "Mega Cat Studios",
-        "year": 2024,
+        "developer": "Sasha Darko, Mega Cat Studios",
+        "year": 2022,
         "cover": "assets/games/md/sacred-line-2.jpg",
         "buyUrl": "https://megacatstudios.com/pages/sacred-line-2",
-        "genre": "Action Adventure",
+        "genre": "Visual Novel",
         "description": "The sequel to Sacred Line, continuing the mystical adventure with new challenges.",
         "tags": [
-          "action-adventure",
+          "visual-novel",
+          "sasha-darko",
           "mega-cat-studios",
           "sacred",
           "sequel"
+        ]
+      },
+      {
+        "id": "smd-045",
+        "title": "Pringles Game",
+        "developer": "Future Driver",
+        "year": 2009,
+        "cover": "assets/games/md/pringles.png",
+        "downloadUrl": "https://web.archive.org/web/20170216071122/http://68000.web.fc2.com/pringles.html",
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "future-driver",
+          "pringles"
+        ]
+      },
+      {
+        "id": "smd-045",
+        "title": "Airstriker",
+        "developer": "Electrokinesis Studios",
+        "year": 2008,
+        "cover": "assets/games/md/air-striker.jpg",
+        "downloadUrl": "http://syniphas.drx.pl/electrokinesis/airstriker/air.html",
+        "genre": "Shoot 'em Up",
+        "tags": [
+          "platform",
+          "electrokinesis-studios",
+          "airstriker"
         ]
       }
     ],
@@ -654,7 +684,7 @@
         "title": "L'Abbaye des Morts",
         "developer": "Locomalito / Mega Cat Studios",
         "year": 2017,
-        "cover": "assets/games/md/abbaye-des-morts.jpg",
+        "cover": "assets/games/md/labbaye-des-morts.jpg",
         "buyUrl": "https://megacatstudios.com/products/labbaye-des-morts",
         "genre": "Platformer",
         "description": "A platformer inspired by ZX Spectrum games, set in 13th-century France. Players control Jean Raymond, a Cathar monk fleeing from crusaders who discovers ancient evils in an abandoned church.",
@@ -671,8 +701,8 @@
         "title": "Darius: Extra Version",
         "developer": "Taito",
         "year": 2020,
-        "cover": "assets/games/md/darius-extra.jpg",
-        "buyUrl": "https://www.taito.co.jp/",
+        "cover": "assets/games/md/darius-extra.webp",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/darius/products/darius-extra-version-genesis-game-preorder",
         "genre": "Shoot 'em Up",
         "description": "An enhanced port of the classic arcade shoot-'em-up Darius. Players pilot the Silver Hawk spacecraft through horizontally scrolling stages, battling waves of enemy forces and massive bosses.",
         "tags": [
@@ -681,6 +711,38 @@
           "port",
           "arcade",
           "silver-hawk"
+        ]
+      },
+      {
+        "id": "smd-047",
+        "title": "Pong RAM",
+        "developer": "TmEE co.",
+        "year": 2009,
+        "cover": "assets/games/md/pong.png",
+        "downloadUrl": "https://pdroms.de/files/sega-genesis-megadrive-smd-md/pong-ram-mini-game-compo-2009",
+        "genre": "Arcade",
+        "tags": [
+          "arcade",
+          "tmee-co",
+          "port",
+          "arcade",
+          "pong-ram"
+        ]
+      },
+      {
+        "id": "smd-047",
+        "title": "SegGala",
+        "developer": "Bill Eubanks",
+        "year": 1998,
+        "cover": "assets/games/md/segala.png",
+        "downloadUrl": "https://www.zophar.net/pdroms/genesis/seggala-v0-06.html",
+        "genre": "Arcade",
+        "tags": [
+          "arcade",
+          "bill-eubanks",
+          "port",
+          "arcade",
+          "seggala"
         ]
       }
     ],
@@ -952,7 +1014,7 @@
         "title": "Jim Power: The Lost Dimension",
         "developer": "Loriciel / Strictly Limited Games",
         "year": 2021,
-        "cover": "assets/games/md/jim-power.jpg",
+        "cover": "assets/games/md/jim-power.png",
         "buyUrl": "https://www.strictlylimitedgames.com/collections/jim-power-the-lost-dimension",
         "genre": "Action Platformer",
         "description": "An action platformer where players control Jim Power on a mission to save the president's daughter from the evil Vaprak. Features challenging levels with a mix of side-scrolling and top-down perspectives.",
@@ -1037,7 +1099,7 @@
         "title": "Zero Tolerance Origins",
         "developer": "Technopop / Strictly Limited Games",
         "year": 2022,
-        "cover": "assets/games/md/zero-tolerance-origins.jpg",
+        "cover": "assets/games/md/zero-tolerance.jpg",
         "buyUrl": "https://www.strictlylimitedgames.com/collections/zero-tolerance-origins",
         "genre": "FPS",
         "description": "A compilation of the classic first-person shooter Zero Tolerance and its unreleased sequel. Players combat alien threats in a variety of environments.",
@@ -1054,7 +1116,7 @@
         "title": "Steel Empire",
         "developer": "Hudson Soft / Strictly Limited Games",
         "year": 2021,
-        "cover": "assets/games/md/steel-empire.jpg",
+        "cover": "assets/games/md/steel-empire.png",
         "buyUrl": "https://www.strictlylimitedgames.com/collections/steel-empire",
         "genre": "Shoot 'em Up",
         "description": "A steampunk-themed side-scrolling shooter where players pilot airships to defeat an evil empire. Praised for its unique setting and engaging gameplay.",
@@ -1088,7 +1150,7 @@
         "title": "Legend of Wukong",
         "developer": "Piko Interactive",
         "year": 2021,
-        "cover": "assets/games/md/legend-wukong.jpg",
+        "cover": "assets/games/md/wukong.webp",
         "buyUrl": "https://www.pikointeractive.com/home/Legend-of-Wukong-Genesis-p132666163",
         "genre": "RPG",
         "description": "An RPG inspired by the classic Chinese tale Journey to the West, where players embark on a quest filled with battles and exploration.",
@@ -1105,7 +1167,7 @@
         "title": "Mega 3D Noah's Ark",
         "developer": "Piko Interactive",
         "year": 2021,
-        "cover": "assets/games/md/mega-3d-noahs-ark.jpg",
+        "cover": "assets/games/md/noahs-ark.jpg",
         "buyUrl": "https://www.pikointeractive.com/home/Mega-3D-Noahs-Ark-Genesis-p132666162",
         "genre": "FPS",
         "description": "A unique first-person shooter where players, as Noah, use a slingshot to pacify animals on the ark. Known for its family-friendly content and distinctive gameplay.",

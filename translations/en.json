@@ -36,5 +36,7 @@
   "category-re-releases": "Re-Releases",
   "category-in-development": "In Development",
   "games-total-text": "games",
-  "games-total-prefix": "Total of"
+  "games-total-prefix": "Total of",
+  "download-free": "Download Free",
+  "free-game": "Free"
 }

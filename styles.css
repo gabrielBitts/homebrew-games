@@ -512,6 +512,12 @@ body {
     color: var(--primary-bg);
 }
 
+.game-status.free {
+    background: rgba(76, 175, 80, 0.9);
+    color: white;
+    border: 2px solid rgba(76, 175, 80, 1);
+}
+
 .game-info {
     padding: 1.5rem;
 }
@@ -564,6 +570,34 @@ body {
 .buy-button.unavailable:hover {
     background: var(--text-muted);
     transform: none;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #4caf50;
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: var(--transition);
+    width: 100%;
+    justify-content: center;
+    border: 2px solid #4caf50;
+}
+
+.download-button:hover {
+    background: #45a049;
+    border-color: #45a049;
+    transform: translateY(-1px);
+}
+
+.download-button::before {
+    content: "⬇";
+    font-size: 1rem;
 }
 
 /* Loading states */

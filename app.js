@@ -344,20 +344,32 @@ class HomebrewGamesApp {
         const statusClass = statusClasses[game.status] || 'new-games';
         const statusText = statusTexts[game.status] || 'New Game';
         
-        const buyButton = game.buyUrl 
-            ? `<a href="${game.buyUrl}" class="buy-button" target="_blank" rel="noopener noreferrer">Buy Now</a>`
-            : `<span class="buy-button unavailable">Not Available</span>`;
+        // Determine button type based on availability
+        let actionButton;
+        let extraStatusClass = '';
+        
+        if (game.downloadUrl) {
+            // Free game with download link
+            actionButton = `<a href="${game.downloadUrl}" class="download-button" target="_blank" rel="noopener noreferrer">${this.translations['download-free'] || 'Download Free'}</a>`;
+            extraStatusClass = ' free';
+        } else if (game.buyUrl) {
+            // Paid game with purchase link
+            actionButton = `<a href="${game.buyUrl}" class="buy-button" target="_blank" rel="noopener noreferrer">${this.translations['buy-now'] || 'Buy Now'}</a>`;
+        } else {
+            // Not available for purchase or download
+            actionButton = `<span class="buy-button unavailable">${this.translations['not-available'] || 'Not Available'}</span>`;
+        }
 
         gameCard.innerHTML = `
             <div class="game-cover">
                 <img src="${game.cover}" alt="${game.title}" loading="lazy" onerror="this.src='assets/placeholder.svg'">
-                <div class="game-status ${statusClass}">${statusText}</div>
+                <div class="game-status ${statusClass}${extraStatusClass}">${game.downloadUrl ? (this.translations['free-game'] || 'Free') : statusText}</div>
             </div>
             <div class="game-info">
                 <h3 class="game-title">${game.title}</h3>
                 <p class="game-developer">${game.developer}</p>
                 <p class="game-year">${game.year}</p>
-                ${buyButton}
+                ${actionButton}
             </div>
         `;
 
