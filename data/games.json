@@ -426,6 +426,182 @@
           "side-scrolling",
           "high-quality"
         ]
+      },
+      {
+        "id": "smd-035",
+        "title": "Life on Earth: Reimagined",
+        "developer": "Independent Developer",
+        "year": 2023,
+        "cover": "assets/games/md/life-on-earth.jpg",
+        "buyUrl": "https://kai-magazine-software.fwscart.com/",
+        "genre": "Action Adventure",
+        "description": "A reimagined version of the classic Life on Earth game for the Sega Genesis.",
+        "tags": [
+          "action-adventure",
+          "reimagined",
+          "classic",
+          "independent"
+        ]
+      },
+      {
+        "id": "smd-036",
+        "title": "The Secret of the Four Winds",
+        "developer": "Independent Developer",
+        "year": 2022,
+        "cover": "assets/games/md/secret-four-winds.jpg",
+        "buyUrl": "https://kai-magazine-software.fwscart.com/",
+        "genre": "Adventure",
+        "description": "An adventure game exploring the mysteries of the four winds.",
+        "tags": [
+          "adventure",
+          "mystery",
+          "independent",
+          "exploration"
+        ]
+      },
+      {
+        "id": "smd-037",
+        "title": "The Cursed Legacy",
+        "developer": "Broke Studio, GGS Studio Creation",
+        "year": 2025,
+        "cover": "assets/games/md/cursed-legacy.jpg",
+        "buyUrl": "https://www.homebrew-factory.com/megadrive-genesis/141-the-cursed-legacy-gen-md.html",
+        "genre": "Action Adventure",
+        "description": "An action-adventure game about uncovering a cursed legacy.",
+        "tags": [
+          "action-adventure",
+          "cursed",
+          "legacy",
+          "independent"
+        ]
+      },
+      {
+        "id": "smd-038",
+        "title": "Rocket Panda",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/rocket-panda.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/rocket-panda",
+        "genre": "Action Platformer",
+        "description": "An action-packed platformer featuring a panda protagonist with rocket-powered adventures.",
+        "tags": [
+          "action-platformer",
+          "mega-cat-studios",
+          "panda",
+          "rocket"
+        ]
+      },
+      {
+        "id": "smd-039",
+        "title": "Alter Ego",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/alter-ego.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/alter-ego-dreamwalker",
+        "genre": "Action Adventure",
+        "description": "An action-adventure game featuring dreamwalking mechanics and alter ego gameplay.",
+        "tags": [
+          "action-adventure",
+          "mega-cat-studios",
+          "dreamwalker",
+          "alter-ego"
+        ]
+      },
+      {
+        "id": "smd-040",
+        "title": "YAZZIE",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/yazzie.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/yazzie",
+        "genre": "Action",
+        "description": "An action game featuring the character YAZZIE in various adventures.",
+        "tags": [
+          "action",
+          "mega-cat-studios",
+          "yazzie",
+          "adventure"
+        ]
+      },
+      {
+        "id": "smd-041",
+        "title": "Old Towers",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/old-towers.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/old-towers",
+        "genre": "Action Adventure",
+        "description": "An action-adventure game set in mysterious old towers filled with secrets and challenges.",
+        "tags": [
+          "action-adventure",
+          "mega-cat-studios",
+          "towers",
+          "mystery"
+        ]
+      },
+      {
+        "id": "smd-042",
+        "title": "Romeow and Julicat",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/romeow-julicat.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/romeow-and-julicat",
+        "genre": "Action Platformer",
+        "description": "A romantic action-platformer featuring the characters Romeow and Julicat in their adventures.",
+        "tags": [
+          "action-platformer",
+          "mega-cat-studios",
+          "romeow",
+          "julicat"
+        ]
+      },
+      {
+        "id": "smd-043",
+        "title": "Little Medusa",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/little-medusa.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/little-medusa",
+        "genre": "Action Platformer",
+        "description": "An action-platformer featuring Little Medusa in various mythological adventures.",
+        "tags": [
+          "action-platformer",
+          "mega-cat-studios",
+          "medusa",
+          "mythology"
+        ]
+      },
+      {
+        "id": "smd-044",
+        "title": "Sacred Line",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/sacred-line.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/sacred-line-1",
+        "genre": "Action Adventure",
+        "description": "An action-adventure game exploring sacred lines and mystical elements.",
+        "tags": [
+          "action-adventure",
+          "mega-cat-studios",
+          "sacred",
+          "mystical"
+        ]
+      },
+      {
+        "id": "smd-045",
+        "title": "Sacred Line 2",
+        "developer": "Mega Cat Studios",
+        "year": 2024,
+        "cover": "assets/games/md/sacred-line-2.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/sacred-line-2",
+        "genre": "Action Adventure",
+        "description": "The sequel to Sacred Line, continuing the mystical adventure with new challenges.",
+        "tags": [
+          "action-adventure",
+          "mega-cat-studios",
+          "sacred",
+          "sequel"
+        ]
       }
     ],
     "ports": [
@@ -471,6 +647,40 @@
           "simulation",
           "giants-software",
           "port"
+        ]
+      },
+      {
+        "id": "smd-046",
+        "title": "L'Abbaye des Morts",
+        "developer": "Locomalito / Mega Cat Studios",
+        "year": 2017,
+        "cover": "assets/games/md/abbaye-des-morts.jpg",
+        "buyUrl": "https://megacatstudios.com/products/labbaye-des-morts",
+        "genre": "Platformer",
+        "description": "A platformer inspired by ZX Spectrum games, set in 13th-century France. Players control Jean Raymond, a Cathar monk fleeing from crusaders who discovers ancient evils in an abandoned church.",
+        "tags": [
+          "platformer",
+          "locomalito",
+          "mega-cat-studios",
+          "port",
+          "historical"
+        ]
+      },
+      {
+        "id": "smd-047",
+        "title": "Darius: Extra Version",
+        "developer": "Taito",
+        "year": 2020,
+        "cover": "assets/games/md/darius-extra.jpg",
+        "buyUrl": "https://www.taito.co.jp/",
+        "genre": "Shoot 'em Up",
+        "description": "An enhanced port of the classic arcade shoot-'em-up Darius. Players pilot the Silver Hawk spacecraft through horizontally scrolling stages, battling waves of enemy forces and massive bosses.",
+        "tags": [
+          "shoot-em-up",
+          "taito",
+          "port",
+          "arcade",
+          "silver-hawk"
         ]
       }
     ],
@@ -736,6 +946,176 @@
           "piko-interactive",
           "thunderbolt"
         ]
+      },
+      {
+        "id": "smd-048",
+        "title": "Jim Power: The Lost Dimension",
+        "developer": "Loriciel / Strictly Limited Games",
+        "year": 2021,
+        "cover": "assets/games/md/jim-power.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/jim-power-the-lost-dimension",
+        "genre": "Action Platformer",
+        "description": "An action platformer where players control Jim Power on a mission to save the president's daughter from the evil Vaprak. Features challenging levels with a mix of side-scrolling and top-down perspectives.",
+        "tags": [
+          "action-platformer",
+          "loriciel",
+          "strictly-limited-games",
+          "re-release",
+          "3d"
+        ]
+      },
+      {
+        "id": "smd-049",
+        "title": "Duke Nukem 3D",
+        "developer": "3D Realms / Piko Interactive",
+        "year": 2022,
+        "cover": "assets/games/md/duke-nukem-3d.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Duke-Nukem-3D-Genesis-p132666159",
+        "genre": "FPS",
+        "description": "The classic first-person shooter Duke Nukem 3D re-released for the Sega Genesis with enhanced features and improved performance.",
+        "tags": [
+          "fps",
+          "3d-realms",
+          "piko-interactive",
+          "re-release",
+          "classic"
+        ]
+      },
+      {
+        "id": "smd-050",
+        "title": "Generals of the Yang Family",
+        "developer": "Piko Interactive",
+        "year": 2021,
+        "cover": "assets/games/md/generals-yang.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Generals-of-the-Yang-Family-Genesis-p132666161",
+        "genre": "Strategy",
+        "description": "A strategy game based on the legendary Chinese tale of the Yang family generals, featuring tactical battles and historical elements.",
+        "tags": [
+          "strategy",
+          "piko-interactive",
+          "re-release",
+          "china",
+          "historical"
+        ]
+      },
+      {
+        "id": "smd-051",
+        "title": "Mega Turrican",
+        "developer": "Factor 5 / Strictly Limited Games",
+        "year": 2021,
+        "cover": "assets/games/md/mega-turrican.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/mega-turrican",
+        "genre": "Action Platformer",
+        "description": "The classic action platformer Mega Turrican re-released with enhanced graphics and sound, featuring the iconic grappling hook mechanics.",
+        "tags": [
+          "action-platformer",
+          "factor-5",
+          "strictly-limited-games",
+          "re-release",
+          "grappling-hook"
+        ]
+      },
+      {
+        "id": "smd-052",
+        "title": "Panorama Cotton",
+        "developer": "Success / Strictly Limited Games",
+        "year": 2021,
+        "cover": "assets/games/md/panorama-cotton.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/panorama-cotton",
+        "genre": "Rail Shooter",
+        "description": "A 3D rail shooter featuring the witch Cotton on a quest to save the fairy kingdom. Known for its vibrant graphics and fast-paced gameplay.",
+        "tags": [
+          "rail-shooter",
+          "success",
+          "strictly-limited-games",
+          "re-release",
+          "3d"
+        ]
+      },
+      {
+        "id": "smd-053",
+        "title": "Zero Tolerance Origins",
+        "developer": "Technopop / Strictly Limited Games",
+        "year": 2022,
+        "cover": "assets/games/md/zero-tolerance-origins.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/zero-tolerance-origins",
+        "genre": "FPS",
+        "description": "A compilation of the classic first-person shooter Zero Tolerance and its unreleased sequel. Players combat alien threats in a variety of environments.",
+        "tags": [
+          "fps",
+          "technopop",
+          "strictly-limited-games",
+          "re-release",
+          "compilation"
+        ]
+      },
+      {
+        "id": "smd-054",
+        "title": "Steel Empire",
+        "developer": "Hudson Soft / Strictly Limited Games",
+        "year": 2021,
+        "cover": "assets/games/md/steel-empire.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/steel-empire",
+        "genre": "Shoot 'em Up",
+        "description": "A steampunk-themed side-scrolling shooter where players pilot airships to defeat an evil empire. Praised for its unique setting and engaging gameplay.",
+        "tags": [
+          "shoot-em-up",
+          "hudson-soft",
+          "strictly-limited-games",
+          "re-release",
+          "steampunk"
+        ]
+      },
+      {
+        "id": "smd-055",
+        "title": "Stone Protectors",
+        "developer": "Interplay / Strictly Limited Games",
+        "year": 2021,
+        "cover": "assets/games/md/stone-protectors.jpg",
+        "buyUrl": "https://www.strictlylimitedgames.com/collections/stone-protectors",
+        "genre": "Beat 'em Up",
+        "description": "A beat 'em up game based on the animated series, where players control characters with unique abilities to defeat enemies and save the kingdom.",
+        "tags": [
+          "beat-em-up",
+          "interplay",
+          "strictly-limited-games",
+          "re-release",
+          "multiplayer"
+        ]
+      },
+      {
+        "id": "smd-056",
+        "title": "Legend of Wukong",
+        "developer": "Piko Interactive",
+        "year": 2021,
+        "cover": "assets/games/md/legend-wukong.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Legend-of-Wukong-Genesis-p132666163",
+        "genre": "RPG",
+        "description": "An RPG inspired by the classic Chinese tale Journey to the West, where players embark on a quest filled with battles and exploration.",
+        "tags": [
+          "rpg",
+          "piko-interactive",
+          "re-release",
+          "china",
+          "journey-west"
+        ]
+      },
+      {
+        "id": "smd-057",
+        "title": "Mega 3D Noah's Ark",
+        "developer": "Piko Interactive",
+        "year": 2021,
+        "cover": "assets/games/md/mega-3d-noahs-ark.jpg",
+        "buyUrl": "https://www.pikointeractive.com/home/Mega-3D-Noahs-Ark-Genesis-p132666162",
+        "genre": "FPS",
+        "description": "A unique first-person shooter where players, as Noah, use a slingshot to pacify animals on the ark. Known for its family-friendly content and distinctive gameplay.",
+        "tags": [
+          "fps",
+          "piko-interactive",
+          "re-release",
+          "family-friendly",
+          "noah"
+        ]
       }
     ],
     "in-development": [
@@ -751,6 +1131,154 @@
           "shmup",
           "pixel-art",
           "upcoming"
+        ]
+      },
+      {
+        "id": "smd-058",
+        "title": "Copper Storm",
+        "developer": "Neofid Studios",
+        "year": 2026,
+        "cover": "assets/games/md/copper-storm.jpg",
+        "buyUrl": "https://neofid-studios.com/products/copperstorm-new-boxed-cartridge-with-printed-manual-for-sega-megadrive-genesis-i-ii-and-iii",
+        "genre": "Action",
+        "description": "An upcoming action game from Neofid Studios, continuing their tradition of high-quality Mega Drive homebrew releases.",
+        "tags": [
+          "action",
+          "neofid-studios",
+          "upcoming",
+          "2026"
+        ]
+      },
+      {
+        "id": "smd-059",
+        "title": "Tourmaline",
+        "developer": "Mega Cat Studios",
+        "year": 2025,
+        "cover": "assets/games/md/tourmaline.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/tourmaline",
+        "genre": "Action",
+        "description": "An upcoming action game from Mega Cat Studios, featuring their signature high-quality homebrew development.",
+        "tags": [
+          "action",
+          "mega-cat-studios",
+          "upcoming",
+          "homebrew"
+        ]
+      },
+      {
+        "id": "smd-060",
+        "title": "Phantom Gear",
+        "developer": "Mega Cat Studios",
+        "year": 2025,
+        "cover": "assets/games/md/phantom-gear.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/phantom-gear",
+        "genre": "Action",
+        "description": "An upcoming action game from Mega Cat Studios, promising exciting gameplay mechanics and retro aesthetics.",
+        "tags": [
+          "action",
+          "mega-cat-studios",
+          "upcoming",
+          "retro"
+        ]
+      },
+      {
+        "id": "smd-061",
+        "title": "Lethal Wedding",
+        "developer": "Mega Cat Studios",
+        "year": 2025,
+        "cover": "assets/games/md/lethal-wedding.jpg",
+        "buyUrl": "https://megacatstudios.com/pages/lethal-wedding",
+        "genre": "Action",
+        "description": "An upcoming action game from Mega Cat Studios with a unique wedding-themed concept and exciting gameplay.",
+        "tags": [
+          "action",
+          "mega-cat-studios",
+          "upcoming",
+          "wedding"
+        ]
+      },
+      {
+        "id": "smd-062",
+        "title": "Crypt of Dracula",
+        "developer": "Pixel Pusher Games",
+        "year": 2025,
+        "cover": "assets/games/md/crypt-dracula.jpg",
+        "buyUrl": "https://www.pixelpushergames.co.uk/crypt-of-dracula/",
+        "genre": "Action Adventure",
+        "description": "A horror-themed action-adventure game featuring the legendary Count Dracula, developed for the Sega Genesis.",
+        "tags": [
+          "action-adventure",
+          "pixel-pusher-games",
+          "upcoming",
+          "horror",
+          "dracula"
+        ]
+      },
+      {
+        "id": "smd-063",
+        "title": "Arkagis Escape",
+        "developer": "Arkagis Team",
+        "year": 2025,
+        "cover": "assets/games/md/arkagis-escape.jpg",
+        "buyUrl": "https://www.arkagis.com/escape/",
+        "genre": "Action",
+        "description": "A sequel to Arkagis Revolution, featuring new gameplay mechanics and enhanced graphics for the Mega Drive.",
+        "tags": [
+          "action",
+          "arkagis-team",
+          "upcoming",
+          "sequel"
+        ]
+      },
+      {
+        "id": "smd-064",
+        "title": "Shadow Gangs Zero",
+        "developer": "JKM Corp",
+        "year": 2025,
+        "cover": "assets/games/md/shadow-gangs-zero.jpg",
+        "buyUrl": "https://www.kickstarter.com/projects/jkmcorp/shadow-gangs-zero",
+        "genre": "Beat 'em Up",
+        "description": "A beat 'em up game inspired by classic arcade titles, featuring intense action and cooperative gameplay.",
+        "tags": [
+          "beat-em-up",
+          "jkm-corp",
+          "upcoming",
+          "kickstarter",
+          "cooperative"
+        ]
+      },
+      {
+        "id": "smd-065",
+        "title": "Heavy Recoil",
+        "developer": "Mikael Tillander",
+        "year": 2026,
+        "cover": "assets/games/md/heavy-recoil.jpg",
+        "buyUrl": "https://www.kickstarter.com/projects/835242565/heavy-recoil/description",
+        "genre": "Run and Gun",
+        "description": "A run-and-gun platformer inspired by arcade classics like Green Beret and Super Contra. Features 16 stages accessible through a world map with non-linear choices.",
+        "tags": [
+          "run-and-gun",
+          "mikael-tillander",
+          "upcoming",
+          "kickstarter",
+          "platformer"
+        ]
+      },
+      {
+        "id": "smd-066",
+        "title": "The Bagman",
+        "developer": "BadTasty",
+        "year": 2025,
+        "cover": "assets/games/md/bagman.jpg",
+        "buyUrl": "https://www.badtasty.com/",
+        "genre": "Horror Adventure",
+        "description": "A 16-bit horror game inspired by 80s slasher films and survival horror games. Combines point-and-click gameplay with fast-paced stealth and action elements.",
+        "tags": [
+          "horror",
+          "badtasty",
+          "upcoming",
+          "adventure",
+          "survival-horror"
         ]
       }
     ]
