@@ -543,7 +543,7 @@
         "id": "smd-042",
         "title": "Romeow and Julicat",
         "developer": "Mega Cat Studios",
-        "year": 2024,
+        "year": 2020,
         "cover": "assets/games/md/romeow.webp",
         "buyUrl": "https://megacatstudios.com/pages/romeow-and-julicat",
         "genre": "Action Platformer",
@@ -1761,17 +1761,333 @@
     "demos-prototypes": [
       {
         "id": "smd-demo-001",
-        "title": "Test Demo Game",
-        "developer": "Sample Developer",
-        "year": 2024,
-        "cover": "assets/games/md/air-striker.jpg",
-        "downloadUrl": "https://example.com/demo-download",
-        "genre": "Demo",
-        "description": "A sample demo game to test the new demos & prototypes filter",
+        "title": "Chuchu Rocket MD (Demo)",
+        "developer": "Fonzie",
+        "year": 2007,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://www.freeroms.com/roms/genesis/chuchu_rocket_demo_by_fonzie_public_domain.htm",
+        "genre": "Puzzle",
+        "description": "Ported from GBA, was released on Sega CD as Mighty Mighty Missile.",
         "tags": [
           "demo",
+          "puzzle",
+          "fonzie",
+          "gba-port"
+        ]
+      },
+      {
+        "id": "smd-demo-002",
+        "title": "Angry Birds (Demo)",
+        "developer": "Zhengyaxin_8bit",
+        "year": 2008,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Angry_Birds_demo",
+        "genre": "Action",
+        "description": "A homebrew re-creation of Angry Birds for the Sega Megadrive.",
+        "tags": [
+          "demo",
+          "action",
+          "zhengyaxin-8bit",
+          "angry-birds"
+        ]
+      },
+      {
+        "id": "smd-demo-003",
+        "title": "Starfox (Demo)",
+        "developer": "gasega68k",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/sfx_gen_starfox_demo",
+        "genre": "Action",
+        "description": "Port of Starfox for SNES. But, just a demo.",
+        "tags": [
+          "demo",
+          "action",
+          "gasega68k",
+          "starfox",
+          "snes-port"
+        ]
+      },
+      {
+        "id": "smd-demo-004",
+        "title": "G-Zero (Demo)",
+        "developer": "gasega68k",
+        "year": 2015,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://gasega68k.itch.io/g-zero",
+        "genre": "Racing",
+        "description": "A port of original F-Zero game for SNES.",
+        "tags": [
+          "demo",
+          "racing",
+          "gasega68k",
+          "f-zero",
+          "snes-port"
+        ]
+      },
+      {
+        "id": "smd-demo-005",
+        "title": "Silent Hill: Genesis (Beta)",
+        "developer": "lupus",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Silent_Hill_Genesis_Beta_PD",
+        "genre": "Text Adventure",
+        "description": "A fan-made adaptation of the original Silent Hill for Sega Megadrive/Genesis in the form of visual novel, based on Silent Hill: Play novel for GBA.",
+        "tags": [
+          "beta",
+          "text-adventure",
+          "lupus",
+          "silent-hill",
+          "visual-novel"
+        ]
+      },
+      {
+        "id": "smd-demo-006",
+        "title": "Mega Squad Advantage (Demo)",
+        "developer": "Bibin",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/MEGA_SQUAD_ADVANTAGE",
+        "genre": "Action",
+        "description": "The game was supposed to play like a mix of Joust, Super Smash Bros, and Towerfall.",
+        "tags": [
+          "demo",
+          "action",
+          "bibin",
+          "joust",
+          "smash-bros"
+        ]
+      },
+      {
+        "id": "smd-demo-007",
+        "title": "Tubes (V. 0.06)",
+        "developer": "Bruce Tomlin",
+        "year": 2007,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pdroms.de/sega-genesis-megadrive-smd-md/tubes-v0-04-genesis-game",
+        "genre": "Puzzle",
+        "description": "Make a completely capped group of pipes to score.",
+        "tags": [
           "prototype",
-          "test"
+          "puzzle",
+          "bruce-tomlin",
+          "pipes"
+        ]
+      },
+      {
+        "id": "smd-demo-008",
+        "title": "260bSnake",
+        "developer": "Sonic 65",
+        "year": 2009,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pdroms.de/files/sega-genesis-megadrive-smd-md/260-byte-snake-12-09-2009",
+        "genre": "Arcade",
+        "description": "A Snake clone in 260 bytes.",
+        "tags": [
+          "demo",
+          "arcade",
+          "sonic-65",
+          "snake",
+          "tiny-game"
+        ]
+      },
+      {
+        "id": "smd-demo-009",
+        "title": "Project MD",
+        "developer": "Sik",
+        "year": 2012,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Project_MD_by_sik_V20100902_PD",
+        "genre": "Platformer",
+        "description": "Lots of graphical tricks, \"inside of machine\" environments.",
+        "tags": [
+          "demo",
+          "platformer",
+          "sik",
+          "graphics-demo"
+        ]
+      },
+      {
+        "id": "smd-demo-010",
+        "title": "Mega Swirl (Demo)",
+        "developer": "Zontar",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pdroms.de/sega-genesis-megadrive-smd-md/mega-swirl-v0-1-0b-genesis-game",
+        "genre": "Puzzle",
+        "description": "A fan adaptation of Sega Swirl, a puzzle game for Dreamcast initially released in 1999.",
+        "tags": [
+          "demo",
+          "puzzle",
+          "zontar",
+          "sega-swirl",
+          "dreamcast-port"
+        ]
+      },
+      {
+        "id": "smd-demo-011",
+        "title": "Goplanes (Demo)",
+        "developer": "djcouchycouch",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/goplanes1.0",
+        "genre": "Side-Scrolling Flying",
+        "description": "Plays like a SNES version of Sopwith. Made with SGDK toolkit.",
+        "tags": [
+          "demo",
+          "flying",
+          "djcouchycouch",
+          "sopwith",
+          "sgdk"
+        ]
+      },
+      {
+        "id": "smd-demo-012",
+        "title": "Fatal Smarties (Demo)",
+        "developer": "Mike Tucker, Matt Cope, Jon Davies, Mike Clark",
+        "year": 2016,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/fatalsmarties",
+        "genre": "Side Scrolling Shooter",
+        "description": "Made for Global Game Jam 2016.",
+        "tags": [
+          "demo",
+          "shooter",
+          "game-jam",
+          "side-scrolling"
+        ]
+      },
+      {
+        "id": "smd-demo-013",
+        "title": "Mega Mario Tower Defense",
+        "developer": "Kannagichan",
+        "year": 2016,
+        "cover": "assets/placeholder.svg",
+        "buyUrl": null,
+        "genre": "Arcade",
+        "description": "Mario themed tower defense game.",
+        "tags": [
+          "demo",
+          "arcade",
+          "kannagichan",
+          "mario",
+          "tower-defense"
+        ]
+      },
+      {
+        "id": "smd-demo-014",
+        "title": "VilQ (Beta)",
+        "developer": "Axi0maT, tehKaiN",
+        "year": 2016,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/pouet_72008",
+        "genre": "Platformer",
+        "description": "Winner of RetroKomp 2016.",
+        "tags": [
+          "beta",
+          "platformer",
+          "axi0mat",
+          "tehkain",
+          "retrokomp"
+        ]
+      },
+      {
+        "id": "smd-demo-015",
+        "title": "L'Odyssée de Pluck A3642 (Demo)",
+        "developer": "Collège Le Vallon (Student project)",
+        "year": 2017,
+        "cover": "assets/placeholder.svg",
+        "buyUrl": null,
+        "genre": "Action",
+        "description": "Action game with 7 missions, and 3 difficulty levels.",
+        "tags": [
+          "demo",
+          "action",
+          "student-project",
+          "college"
+        ]
+      },
+      {
+        "id": "smd-demo-016",
+        "title": "Papi Commando Reload (Tectoy Demo)",
+        "developer": "Studio Vetea",
+        "year": 2017,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://vetea.itch.io/papi-commando-reload-free-demo-tectoy",
+        "genre": "Action",
+        "description": "Reload version of original 2015 Papi Commando game.",
+        "tags": [
+          "demo",
+          "action",
+          "studio-vetea",
+          "papi-commando",
+          "tectoy"
+        ]
+      },
+      {
+        "id": "smd-demo-017",
+        "title": "Omega Blast (v0.9)",
+        "developer": "Nendo",
+        "year": 2018,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://nendo16.jimdofree.com/omega-blast/",
+        "genre": "Shooter",
+        "description": "A vertically scrolling shooting game developed to commemorate the 30th anniversary of the release of Mega Drive.",
+        "tags": [
+          "prototype",
+          "shooter",
+          "nendo",
+          "vertical-scrolling",
+          "30th-anniversary"
+        ]
+      },
+      {
+        "id": "smd-demo-018",
+        "title": "Plataforma Ultimate (Demo)",
+        "developer": "Nemezes Games",
+        "year": 2019,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://x.com/laudelino7/status/1098986537604255752?t=4MYwwrwSr61Qcw8iq4SyAA",
+        "genre": "Platformer",
+        "description": "Jump, bump, kick, GO! And don't forget to collect all the coins. A new platformer game for MD/Genesis.",
+        "tags": [
+          "demo",
+          "platformer",
+          "nemezes-games",
+          "coins"
+        ]
+      },
+      {
+        "id": "smd-demo-019",
+        "title": "Inktober 2019: The Game",
+        "developer": "Florian Bronnimann",
+        "year": 2019,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://www.yaronet.com/topics/191430-jeu-inktober-2019-pour-sega-mega-drive",
+        "genre": "Arcade",
+        "description": "A simple arcade game.",
+        "tags": [
+          "demo",
+          "arcade",
+          "florian-bronnimann",
+          "inktober"
+        ]
+      },
+      {
+        "id": "smd-demo-019",
+        "title": "FoxyLand",
+        "developer": "PSCD Games",
+        "year": 2020,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pscdgames.itch.io/foxyland",
+        "genre": "Platform",
+        "description": "A simple platform game.",
+        "tags": [
+          "demo",
+          "arcade",
+          "pscd-games",
+          "foxyland"
         ]
       }
     ]
