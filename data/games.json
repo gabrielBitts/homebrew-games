@@ -744,6 +744,405 @@
           "arcade",
           "seggala"
         ]
+      },
+      {
+        "id": "smd-port-001",
+        "title": "Teenage Queen MD",
+        "developer": "Pascal-O-Rama",
+        "year": 2006,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://www.pascalorama.com/article.php?news=35&cat=24",
+        "genre": "Action",
+        "description": "It's a straight port of a famous Strip Poker game available for the Atari ST.",
+        "tags": [
+          "port",
+          "action",
+          "pascal-o-rama",
+          "strip-poker"
+        ]
+      },
+      {
+        "id": "smd-port-002", 
+        "title": "Sonic the Hedgehog Megamix",
+        "developer": "Team Megamix",
+        "year": 2007,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://www.teammegamix.com/",
+        "genre": "Platform",
+        "description": "Multiperson disassembly modification of the original Sonic the Hedgehog.",
+        "tags": [
+          "port",
+          "platform",
+          "sonic",
+          "team-megamix",
+          "modification"
+        ]
+      },
+      {
+        "id": "smd-port-003",
+        "title": "Yie Ar Kung Fu ",
+        "developer": "Evgeny",
+        "year": 2008,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://theisozone.com/downloads/other-consoles/megadrive/yie-ar-kung-fu-unlicensed/",
+        "genre": "Fighting",
+        "description": "A complete port of the original NES game.",
+        "tags": [
+          "port",
+          "fighting",
+          "evgeny",
+          "nes-port"
+        ]
+      },
+      {
+        "id": "smd-port-004",
+        "title": "Miniball SE",
+        "developer": "wejp",
+        "year": 2008,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pdroms.de/files/sega-genesis-megadrive-smd-md/miniball-se-v1-0",
+        "genre": "Sports",
+        "description": "A port of original Miniball SE.",
+        "tags": [
+          "port",
+          "sports",
+          "miniball"
+        ]
+      },
+      {
+        "id": "smd-port-005",
+        "title": "Battle City",
+        "developer": "krikzz",
+        "year": 2008,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://pdroms.de/genesis/battlecity-megadrive-v1-03-genesis-game",
+        "genre": "Action",
+        "description": "A remake of Battle City game for NES.",
+        "tags": [
+          "port",
+          "action",
+          "krikzz",
+          "battle-city",
+          "nes-remake"
+        ]
+      },
+      {
+        "id": "smd-port-006",
+        "title": "Super Mario Bros",
+        "developer": "Mairtrus",
+        "year": 2010,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/smb_bin",
+        "genre": "Platform",
+        "description": "A complete port of the Super Mario Bros game for NES.",
+        "tags": [
+          "port",
+          "platform",
+          "matiass",
+          "super-mario",
+          "nes-port"
+        ]
+      },
+      {
+        "id": "smd-port-007",
+        "title": "Berzerk",
+        "developer": "Paul Lee",
+        "year": 2024,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://www.zophar.net/pdroms/genesis/berzerk.html",
+        "genre": "Action",
+        "description": "A complete port of the Berzerk game for Atari.",
+        "tags": [
+          "port",
+          "action",
+          "paul-lee",
+          "berzerk",
+          "atari-port"
+        ]
+      },
+      {
+        "id": "smd-port-008",
+        "title": "Rick Dangerous DX",
+        "developer": "Simon Phipps, Domkid",
+        "year": 2025,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://z-team.itch.io/rick-dangerous-dx",
+        "genre": "Platform",
+        "description": "A complete port of the Atari ST version.",
+        "tags": [
+          "port",
+          "platform",
+          "rick-dangerous",
+          "atari-st-port"
+        ]
+      },
+      {
+        "id": "smd-port-008",
+        "title": "Rick Dangerous",
+        "developer": "Pascal-O-Rama",
+        "year": 2011,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://www.pascalorama.com/rick-dangerous/",
+        "genre": "Platform",
+        "description": "A complete port of the Atari ST version.",
+        "tags": [
+          "port",
+          "platform",
+          "rick-dangerous",
+          "atari-st-port"
+        ]
+      },
+      {
+        "id": "smd-port-009",
+        "title": "Oh Mummy Genesis ",
+        "developer": "1985 alternativo",
+        "year": 2012,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Oh_Mummy_Genesis_World_Aftermarket_Unl.md",
+        "genre": "Action",
+        "description": "2-in-1 port and original version of Amstrad CPC game). Cartridge version released by 1985 alternativo.",
+        "tags": [
+          "port",
+          "action",
+          "1985-alternativo",
+          "amstrad-cpc-port"
+        ]
+      },
+      {
+        "id": "smd-port-010",
+        "title": "Barbarian",
+        "developer": "F.L.",
+        "year": 2012,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://barbarian.1987.free.fr/indexEN.htm",
+        "genre": "Action",
+        "description": "Port of 7 different version (Amstrad CPC, Commodore 64, ZX Spectrum, Atari ST, Amiga 500, PC-DOS, and Appleii). Created for the 25th anniversary of the game Barbarian in 2012.",
+        "tags": [
+          "port",
+          "action",
+          "f-l",
+          "barbarian",
+          "multiple-platforms"
+        ]
+      },
+      {
+        "id": "smd-port-011",
+        "title": "Crazy Cars MD",
+        "developer": "F.L.",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://crazycarscpc.free.fr/indexEN.htm",
+        "genre": "Racing",
+        "description": "Remake of the best racing game of Amstrad CPC released in 1988.",
+        "tags": [
+          "port",
+          "racing",
+          "f-l",
+          "crazy-cars",
+          "amstrad-cpc-remake"
+        ]
+      },
+      {
+        "id": "smd-port-012",
+        "title": "Wolfenstein 3D",
+        "developer": "gasega68k",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/wolf_bin",
+        "genre": "FPS",
+        "description": "Port of Wolfenstein 3D for PC.",
+        "tags": [
+          "port",
+          "fps",
+          "gasega68k",
+          "wolfenstein",
+          "pc-port"
+        ]
+      },
+      {
+        "id": "smd-port-013",
+        "title": "MineSweeper",
+        "developer": "PSCD.ru",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pscd-ru.translate.goog/games/smd/msmd/1830-minesweeper.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc",
+        "genre": "Puzzle",
+        "description": "Port of popular MineSweeper game.",
+        "tags": [
+          "port",
+          "puzzle",
+          "pscdin",
+          "minesweeper"
+        ]
+      },
+      {
+        "id": "smd-port-014",
+        "title": "Sumo Slam",
+        "developer": "Segaman Production",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": null,
+        "genre": "Arcade",
+        "description": "Port of a JAVA mobile phone game 'Sumo Smash'. Music has been ripped from the Sonic hack 'Sonic 3 Mix-Up'. It requires 6-button gamepad (U, D, L, D, U, D, U, D).",
+        "tags": [
+          "port",
+          "arcade",
+          "sorgman-production",
+          "sumo-snap",
+          "java-port"
+        ]
+      },
+      {
+        "id": "smd-port-015",
+        "title": "UWOL: Quest for Money",
+        "developer": "The Mojon Twins/ Shiru",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Uwol_Quest_For_Money_by_Shiru_PD",
+        "genre": "Platform",
+        "description": "Port of a ZX Spectrum game by The Mojon Twins. Ported by Shiru, and Cartridge version released by 1985 alternativo.",
+        "tags": [
+          "port",
+          "platform",
+          "mojon-twins",
+          "shiru",
+          "zx-spectrum-port"
+        ]
+      },
+      {
+        "id": "smd-port-016",
+        "title": "Fix it Felix Jr. MD",
+        "developer": "Future Driver",
+        "year": 2013,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "http://68000.web.fc2.com/felix/",
+        "genre": "Action",
+        "description": "Port of a pseudo retro game in Flash by Disney (to help promote Wreck it Ralph).",
+        "tags": [
+          "port",
+          "action",
+          "future-driver",
+          "disney",
+          "flash-port"
+        ]
+      },
+      {
+        "id": "smd-port-017",
+        "title": "Fix it Felix Jr. MD",
+        "developer": "Airwalks Studios",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/felix_bin",
+        "genre": "Action",
+        "description": "Port of a pseudo retro game in Flash by Disney (to help promote Wreck it Ralph).",
+        "tags": [
+          "port",
+          "action",
+          "airwalks-studios",
+          "disney",
+          "flash-port"
+        ]
+      },
+      {
+        "id": "smd-port-018",
+        "title": "2048",
+        "developer": "Oerg866",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://gendev.spritesmind.net/forum/viewtopic.php?t=1730",
+        "genre": "Puzzle",
+        "description": "A direct port of popular 2048 game.",
+        "tags": [
+          "port",
+          "puzzle",
+          "oerg866",
+          "2048"
+        ]
+      },
+      {
+        "id": "smd-port-019",
+        "title": "Flappy Bird",
+        "developer": "PSCD.ru",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://pscd-ru.translate.goog/games/smd/fsmd/2713-flappy-bird.html?_x_tr_sl=ru&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc",
+        "genre": "Action",
+        "description": "Port of popular game for Android and iOS.",
+        "tags": [
+          "port",
+          "action",
+          "pscdin",
+          "flappy-bird",
+          "mobile-port"
+        ]
+      },
+      {
+        "id": "smd-port-020",
+        "title": "Chase",
+        "developer": "Jack Nolddor",
+        "year": 2014,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://web.archive.org/web/20150725081530/https://dl.dropboxusercontent.com/u/1383198/SegaRoms/ChaseMD/index.html",
+        "genre": "Arcade",
+        "description": "A port of homebrew NES game. A Pac-Man clone.",
+        "tags": [
+          "port",
+          "arcade",
+          "jack-nolddor",
+          "chase",
+          "pacman-clone"
+        ]
+      },
+      {
+        "id": "smd-port-021",
+        "title": "BugHunt",
+        "developer": "Jack Nolddor & MusaWarchetMD",
+        "year": 2015,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://archive.org/details/Bug_Hunt_2015-01-31",
+        "genre": "Arcade",
+        "description": "A port of PC game by Lazy Brain Games.",
+        "tags": [
+          "port",
+          "arcade",
+          "jack-nolddor",
+          "musa-warchet",
+          "pc-port"
+        ]
+      },
+      {
+        "id": "smd-port-022",
+        "title": "Octopus",
+        "developer": "theelf",
+        "year": 2015,
+        "cover": "assets/placeholder.svg",
+        "downloadUrl": "https://www-retroplayingbcn-es.translate.goog/2015/02/nuevos-juegos-homebrew-para-megadrive.html?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc",
+        "genre": "Platform",
+        "description": "A port of original Octopus game for Game & Watch. Sega CD version also available.",
+        "tags": [
+          "port",
+          "platform",
+          "theelf",
+          "octopus",
+          "game-and-watch"
+        ]
+      },
+      {
+        "id": "smd-port-023",
+        "title": "Magic Pockets",
+        "developer": "Bitmap Brothers, JoshProd",
+        "year": 2016,
+        "cover": "assets/placeholder.svg",
+        "buyUrl": "https://www.pixelheart.eu/en/produit/magic-pockets-genesis/",
+        "genre": "Platform",
+        "description": "A port of the early 90's component game.",
+        "tags": [
+          "port",
+          "platform",
+          "bitmap-brothers",
+          "polyplay",
+          "90s-game"
+        ]
       }
     ],
     "re-releases": [
@@ -758,6 +1157,21 @@
         "tags": [
           "shmup",
           "toaplan"
+        ]
+      },
+      {
+        "id": "smd-007",
+        "title": "Aladdin",
+        "developer": "Disney, Nighthawk, iam8bit",
+        "year": 2023,
+        "cover": "assets/games/md/aladdin.jpg",
+        "buyUrl": null,
+        "genre": "Platform",
+        "tags": [
+          "platform",
+          "disney",
+          "nighthawk",
+          "iam8bit"
         ]
       },
       {
