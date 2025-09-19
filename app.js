@@ -212,7 +212,7 @@ class HomebrewGamesApp {
             
             // Convert nested JSON structure to flat array
             Object.keys(gamesData).forEach(system => {
-                ['new-games', 'ports', 're-releases', 'in-development'].forEach(status => {
+                ['new-games', 'ports', 're-releases', 'in-development', 'demos-prototypes'].forEach(status => {
                     if (gamesData[system][status]) {
                         gamesData[system][status].forEach(game => {
                             allGames.push({
@@ -234,13 +234,23 @@ class HomebrewGamesApp {
     }
 
     filterGames(system, filters) {
-        // If 'all' is selected or no specific filters, show all games for the system
-        if (filters.includes('all') || filters.length === 0) {
-            this.filteredGames = this.games.filter(game => game.system === system);
-        } else {
-            // Show games that match any of the selected filters
+        // Check if demos-prototypes filter is selected (exclusive)
+        if (filters.includes('demos-prototypes')) {
+            // Only show demos and prototypes
             this.filteredGames = this.games.filter(game => 
-                game.system === system && filters.includes(game.status)
+                game.system === system && game.status === 'demos-prototypes'
+            );
+        } else if (filters.includes('all') || filters.length === 0) {
+            // Show all games EXCEPT demos-prototypes when 'all' is selected
+            this.filteredGames = this.games.filter(game => 
+                game.system === system && game.status !== 'demos-prototypes'
+            );
+        } else {
+            // Show games that match any of the selected filters (excluding demos-prototypes)
+            this.filteredGames = this.games.filter(game => 
+                game.system === system && 
+                filters.includes(game.status) && 
+                game.status !== 'demos-prototypes'
             );
         }
         this.sortGames();
@@ -364,13 +374,15 @@ class HomebrewGamesApp {
             'new-games': 'new-games',
             'ports': 'ports',
             're-releases': 're-releases',
-            'in-development': 'in-development'
+            'in-development': 'in-development',
+            'demos-prototypes': 'demos-prototypes'
         };
         const statusTexts = {
             'new-games': 'New Game',
             'ports': 'Port',
             're-releases': 'Re-Release',
-            'in-development': 'In Development'
+            'in-development': 'In Development',
+            'demos-prototypes': 'Demo/Prototype'
         };
         const statusClass = statusClasses[game.status] || 'new-games';
         const statusText = statusTexts[game.status] || 'New Game';
@@ -408,12 +420,18 @@ class HomebrewGamesApp {
     }
 
     handleFilterClick(filter) {
-        if (filter === 'all') {
+        if (filter === 'demos-prototypes') {
+            // Demos-prototypes is exclusive - only select this filter
+            this.currentFilters = ['demos-prototypes'];
+        } else if (filter === 'all') {
             // If 'All' is clicked, deselect all other filters and select only 'all'
             this.currentFilters = ['all'];
         } else {
-            // If a specific filter is clicked
-            if (this.currentFilters.includes('all')) {
+            // If a specific filter is clicked (but not demos-prototypes)
+            if (this.currentFilters.includes('demos-prototypes')) {
+                // If demos-prototypes was selected, replace it with the new filter
+                this.currentFilters = [filter];
+            } else if (this.currentFilters.includes('all')) {
                 // If 'all' was selected, replace it with the specific filter
                 this.currentFilters = [filter];
             } else {

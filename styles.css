@@ -527,6 +527,11 @@ body {
     color: var(--primary-bg);
 }
 
+.game-status.demos-prototypes {
+    background: rgba(255, 87, 34, 0.9);
+    color: white;
+}
+
 .game-status.free {
     background: rgba(76, 175, 80, 0.9);
     color: white;

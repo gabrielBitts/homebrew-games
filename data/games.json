@@ -1343,6 +1343,23 @@
           "survival-horror"
         ]
       }
+    ],
+    "demos-prototypes": [
+      {
+        "id": "smd-demo-001",
+        "title": "Test Demo Game",
+        "developer": "Sample Developer",
+        "year": 2024,
+        "cover": "assets/games/md/air-striker.jpg",
+        "downloadUrl": "https://example.com/demo-download",
+        "genre": "Demo",
+        "description": "A sample demo game to test the new demos & prototypes filter",
+        "tags": [
+          "demo",
+          "prototype",
+          "test"
+        ]
+      }
     ]
   },
   "super-nintendo": {
